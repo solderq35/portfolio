@@ -9,7 +9,11 @@ summary {
 }
 
 details {
-  font-size:20px;
+  font-size:1.125rem;
+}
+
+p {
+	font-size: 1.125rem;
 }
 
 .gist .markdown-body {
