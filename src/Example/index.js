@@ -13,7 +13,7 @@ export default function index() {
    </p>
    
    <button class="bg-blue-600 hover:bg-blue-900 text-white font-bold py-2.5 px-4 rounded my-6 text-2xl mx-5">
-  <a href="http://localhost:3000/projects" class = "a2">Projects</a>
+  <a href="/projects" class = "a2">Projects</a>
 	</button>
 
    <button class="bg-blue-600 hover:bg-blue-900 text-white font-bold py-2.5 px-4 rounded my-6 text-2xl mx-5">
