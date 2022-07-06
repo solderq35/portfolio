@@ -11,8 +11,14 @@ export default function Example() {
       />
   <div class="px-6 py-4 bg-white">
     <div class="font-bold text-xl mb-2"><a href="https://github.com/solderq35/hospital-website">Hospital Website</a></div>
-    <p class="text-gray-700 text-base">
-      Hospital Database Website. Built with NodeJS + SQL backend,  Handlebars framework frontend. Users can create, update, read, and delete hospital database entries.
+    <p class="text-gray-700 text-base text-left">
+      Hospital Database Website
+	  <ul className = "list-disc list-inside">
+		<li>Built with NodeJS + SQL backend,  Handlebars framework frontend</li>
+		<li>Users can create, update, read, and delete hospital database entries (CRUD functionality)</li>
+		<li>Note: Not based on any particular real hospital, it's just proof of concept
+		</li>
+	  </ul>
     </p>
   </div>
 </div>
@@ -23,10 +29,14 @@ export default function Example() {
       alt="new"
       />
   <div class="px-6 py-4 bg-white">
-    <div class="font-bold text-xl mb-2">HitRuns</div>
+    <div class="font-bold text-xl mb-2"><a href="https://github.com/solderq35/hitruns">Hitruns</a></div>
 
-    <p class="text-gray-700 text-base">
-      Mirror site of Hitman 3 leaderboard on Speedrun.com. Built with NodeJS + Typescript backend, NextJS + React frontend. <hr /> Updates itself regularly to match the original leaderboard, with help from speedrun.com's RESTFUL API.
+    <p class="text-gray-700 text-base text-left">
+      Mirror site of Hitman 3 leaderboard on Speedrun.com. <hr className= "opacity-0"/> <hr className= "opacity-0"/> 
+	  <ul className = "list-disc list-inside">
+		<li>Built with NodeJS + Typescript backend, NextJS + React frontend</li>
+		<li>Updates itself regularly to match the original leaderboard, with help from speedrun.com's RESTFUL API</li>
+	  </ul>
     </p>
   </div>
 </div>
@@ -37,9 +47,13 @@ export default function Example() {
       alt="new"
       />
   <div class="px-6 py-4 bg-white">
-    <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
-    <p class="text-gray-700 text-base">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+    <div class="font-bold text-xl mb-2"><a href="https://github.com/solderq35/time-calc-under-5">HITMAN Milliseconds Time Calculator</a></div>
+    <p class="text-gray-700 text-base text-left">
+      Tool that calculates the exact completion time of a HITMAN level with milliseconds accuracy, based on the player's score (level completion times are only shown to the nearest second in-game).  
+	  <ul className = "list-disc list-inside">
+		<li>Built with vanilla JS + HTML</li>
+		<li>Up to 20 regular users in HITMAN speedrun community</li>
+	  </ul>
     </p>
   </div>
 </div>

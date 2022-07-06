@@ -2,12 +2,16 @@
 import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { BellIcon, MenuIcon, XIcon } from '@heroicons/react/outline'
+import { Link } from 'react-router-dom';
+
 
 const navigation = [
-  { name: 'Home', href: '/', current: true },
-  { name: 'Example', href: 'example', current: false },
+  { name: 'Home', href:"/", current: false },
   { name: 'Projects', href: 'projects', current: false },
-  { name: 'Calendar', href: '#', current: false },
+  { name: 'Resume', href: 'https://drive.google.com/file/d/1DK6EacFhsBRNLibtkC3F7IEuvPYTtbU0/view?usp=sharing', current: false },
+  { name: 'Github', href: 'https://github.com/solderq35', current: false },
+  { name: 'Email', href: 'mailto:huangjeff.cs@gmail.com', current: false },
+  { name: 'Linkedin', href: 'https://www.linkedin.com/in/huangjeffcs/', current: false },
 ]
 
 function classNames(...classes) {
@@ -38,6 +42,7 @@ export default function Navbar() {
                   <div className="flex space-x-4">
                     {navigation.map((item) => (
                       <a
+
                         key={item.name}
                         href={item.href}
                         className={classNames(
