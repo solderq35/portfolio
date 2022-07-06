@@ -11,7 +11,7 @@ const navigation = [
   { name: 'Resume', href: 'https://drive.google.com/file/d/1DK6EacFhsBRNLibtkC3F7IEuvPYTtbU0/view?usp=sharing', current: false },
   { name: 'Github', href: 'https://github.com/solderq35', current: false },
   { name: 'Email', href: 'mailto:huangjeff.cs@gmail.com', current: false },
-  { name: 'Linkedin', href: 'https://www.linkedin.com/in/huangjeffcs/', current: false },
+  { name: 'LinkedIn', href: 'https://www.linkedin.com/in/huangjeffcs/', current: false },
 ]
 
 function classNames(...classes) {
