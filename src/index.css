@@ -1,3 +1,52 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+summary {
+  cursor: pointer;
+  font-size:20px;
+  margin: 15px 0;
+
+}
+
+details {
+  font-size:20px;
+}
+
+.gist .markdown-body {
+	font-family: Verdana, sans-serif;
+	border-bottom: none;
+  border-radius: 0;
+  
+}
+
+.gist .markdown-body h2
+{
+	border-bottom: transparent !important;
+}
+
+.gist .markdown-body h1
+{
+	border-bottom: transparent !important;
+}
+
+body .gist .gist-data {
+  border-bottom: none;
+  border-radius: 0;
+  padding-right: 10px;
+  padding-left: 10px;
+  background-color: transparent;
+}
+
+a{
+color:blue;
+text-decoration: underline;
+}
+
+body .gist .gist-meta {
+  display: none;
+}
+body
+{
+background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Sky.jpg/1280px-Sky.jpg);
+background-attachment: fixed;
+}

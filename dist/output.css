@@ -89,7 +89,8 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6
+ {
   font-size: inherit;
   font-weight: inherit;
 }
@@ -132,7 +133,7 @@ Add the correct font size in all browsers.
 */
 
 small {
-  font-size: 80%;
+  font-size: 150%;
 }
 
 /*
@@ -470,3 +471,4 @@ Ensure the default browser behavior of the `hidden` attribute.
   -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
           transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
+
