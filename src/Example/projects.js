@@ -4,6 +4,7 @@ export default function Example() {
 	
   return (
   <center>
+  <h1 className="text-7xl mt-10 mb-10"> <b> Projects </b> </h1>
 <div class="max-w-sm rounded overflow-hidden shadow-lg pt-5">
  		       <img 
       src="https://camo.githubusercontent.com/6e288253dd83c9c9ad0117800f14d3ed7fbe74f99353585f2a7c01df0ac5ac9c/68747470733a2f2f6d656469612e646973636f72646170702e6e65742f6174746163686d656e74732f3833333530353133363239303239393933352f3939333937313837333130323731323935322f756e6b6e6f776e2e706e673f77696474683d373135266865696768743d363730"
