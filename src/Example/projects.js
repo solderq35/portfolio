@@ -1,5 +1,3 @@
-import Gist from 'super-react-gist'
-
 export default function Example() {
 	
   return (

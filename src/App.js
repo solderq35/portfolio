@@ -11,9 +11,9 @@ return (
     <Router>
     <Navbar />
     <Routes>
-        <Route exact path='/' exact element={<Index />} />
-        <Route path='/example' element={<Example/>} />
-		<Route path='/projects' element={<Projects/>} />
+        <Route exact path='/' element={<Index />} />
+        <Route exact path='/example' element={<Example/>} />
+		<Route exact path='/projects' element={<Projects/>} />
     </Routes>
     </Router>
 );
