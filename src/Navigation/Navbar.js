@@ -7,7 +7,7 @@ import { MenuIcon, XIcon } from '@heroicons/react/outline'
 const navigation = [
   { name: 'Home', href:"/", current: false },
   { name: 'Projects', href: 'projects', current: false },
-  { name: 'Resume', href: 'https://drive.google.com/file/d/1CqM_wI6JGQeAJnHvVDDWbIs2lCKXOWRO/view?usp=sharing', current: false },
+  { name: 'Resume', href: 'https://drive.google.com/file/d/1iEAvzIE-sBFN3C0udR76amxRfrFwrBL8/view?usp=sharing', current: false },
   { name: 'Github', href: 'https://github.com/solderq35', current: false },
   { name: 'Email', href: 'mailto:huangjeff.cs@gmail.com', current: false },
   { name: 'LinkedIn', href: 'https://www.linkedin.com/in/huangjeffcs/', current: false },
