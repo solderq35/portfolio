@@ -2,12 +2,14 @@
 import { Fragment } from 'react'
 import { Disclosure} from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
+import globalVal from '../globalResumeVar.js';
+var resumeLink = globalVal.value;
 
 
 const navigation = [
   { name: 'Home', href:"/", target:"_self", rel:"noreferrer", current: false },
   { name: 'Projects', href: 'projects', target:"_self", rel:"noreferrer", current: false },
-  { name: 'Resume', href: 'https://drive.google.com/file/d/1iEAvzIE-sBFN3C0udR76amxRfrFwrBL8/view?usp=sharing', target:"_blank", rel:"noreferrer", current: false },
+  { name: 'Resume', href: resumeLink, target:"_blank", rel:"noreferrer", current: false },
   { name: 'Github', href: 'https://github.com/solderq35', target:"_blank", rel:"noreferrer", current: false },
   { name: 'Email', href: 'mailto:huangjeff.cs@gmail.com', target:"_blank", rel:"noreferrer", current: false },
   { name: 'LinkedIn', href: 'https://www.linkedin.com/in/huangjeffcs/', target:"_blank", rel:"noreferrer", current: false },

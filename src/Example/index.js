@@ -1,3 +1,6 @@
+import globalVal from '../globalResumeVar.js';
+var resumeLink = globalVal.value;
+
 export default function index() {
 	
   return (
@@ -14,9 +17,8 @@ export default function index() {
 	</button>
 
    <button class="bg-blue-600 hover:bg-blue-900 text-white font-bold py-2.5 px-4 rounded my-6 text-2xl mx-5">
-  <a href="https://drive.google.com/file/d/1CqM_wI6JGQeAJnHvVDDWbIs2lCKXOWRO/view?usp=sharing" class = "a2">Resume</a>
+  <a href= {resumeLink}  target="_blank" rel="noreferrer"class = "a2">Resume</a>
 </button>
-
 
 </div>
   )
