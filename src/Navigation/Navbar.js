@@ -5,12 +5,12 @@ import { MenuIcon, XIcon } from '@heroicons/react/outline'
 
 
 const navigation = [
-  { name: 'Home', href:"/", current: false },
-  { name: 'Projects', href: 'projects', current: false },
-  { name: 'Resume', href: 'https://drive.google.com/file/d/1iEAvzIE-sBFN3C0udR76amxRfrFwrBL8/view?usp=sharing', current: false },
-  { name: 'Github', href: 'https://github.com/solderq35', current: false },
-  { name: 'Email', href: 'mailto:huangjeff.cs@gmail.com', current: false },
-  { name: 'LinkedIn', href: 'https://www.linkedin.com/in/huangjeffcs/', current: false },
+  { name: 'Home', href:"/", target:"_self", rel:"noreferrer", current: false },
+  { name: 'Projects', href: 'projects', target:"_self", rel:"noreferrer", current: false },
+  { name: 'Resume', href: 'https://drive.google.com/file/d/1iEAvzIE-sBFN3C0udR76amxRfrFwrBL8/view?usp=sharing', target:"_blank", rel:"noreferrer", current: false },
+  { name: 'Github', href: 'https://github.com/solderq35', target:"_blank", rel:"noreferrer", current: false },
+  { name: 'Email', href: 'mailto:huangjeff.cs@gmail.com', target:"_blank", rel:"noreferrer", current: false },
+  { name: 'LinkedIn', href: 'https://www.linkedin.com/in/huangjeffcs/', target:"_blank", rel:"noreferrer", current: false },
 ]
 
 function classNames(...classes) {
@@ -43,6 +43,8 @@ export default function Navbar() {
                       <a
 
                         key={item.name}
+						target = {item.target}
+						rel = {item.rel}
                         href={item.href}
                         className={classNames(
                           item.current ? 'text-gray-100 hover:bg-gray-700 hover:text-white' : 'text-gray-100 hover:bg-gray-700 hover:text-white',
