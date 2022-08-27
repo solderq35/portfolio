@@ -11,12 +11,25 @@ export default function Example() {
   <div class="px-6 py-4 bg-white">
     <div class="font-bold text-xl mb-2"><a href="https://github.com/solderq35/hospital-website">Hospital Website</a></div>
     <p class="text-gray-700 text-base text-left">
-      Hospital Database Website
 	  <ul className = "list-disc list-inside">
 		<li>Built with NodeJS + SQL backend,  Handlebars framework frontend</li>
 		<li>Users can create, update, read, and delete hospital database entries (CRUD functionality)</li>
-		<li>Note: Not based on any particular real hospital, it's just proof of concept
-		</li>
+	  </ul>
+    </p>
+  </div>
+</div>
+
+<div class="max-w-sm rounded overflow-hidden shadow-lg mt-5">
+ 		       <img 
+      src="https://cdn.discordapp.com/attachments/833505136290299935/1013155601100066908/unknown.png"
+      alt="new"
+      />
+  <div class="px-6 py-4 bg-white">
+    <div class="font-bold text-xl mb-2"><a href="https://github.com/solderq35/wasteagram">Wasteagram</a></div>
+    <p class="text-gray-700 text-base text-left">
+	  <ul className = "list-disc list-inside">
+		<li>Cross-platform mobile app built with Dart (Flutter Framework), user data hosted in the cloud on Google Firebase</li>
+		<li>Users can create posts with information on wasted food items such as number of items wasted, photo of the item, date, and location</li>
 	  </ul>
     </p>
   </div>
