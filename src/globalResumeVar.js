@@ -1,3 +1,3 @@
 export default {
-    value: "https://drive.google.com/file/d/1iEAvzIE-sBFN3C0udR76amxRfrFwrBL8/view?usp=sharing",
+    value: "https://drive.google.com/file/d/1SDIt94XcryRqeu-F-mHE86BjRtWqbha1/view?usp=sharing",
 };
