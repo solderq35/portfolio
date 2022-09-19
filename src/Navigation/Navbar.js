@@ -1,22 +1,27 @@
 /* This example requires Tailwind CSS v2.0+ */
-import { Fragment } from 'react'
-import { Disclosure} from '@headlessui/react'
-import { MenuIcon, XIcon } from '@heroicons/react/outline'
+import { Fragment } from 'react';
+import { Disclosure } from '@headlessui/react';
+import { MenuIcon, XIcon } from '@heroicons/react/outline';
 import globalVal from '../globalResumeVar.js';
 var resumeLink = globalVal.value;
 
-
 const navigation = [
-  { name: 'Home', href:"/", target:"_self", rel:"noreferrer", current: false },
-  { name: 'Projects', href: 'projects', target:"_self", rel:"noreferrer", current: false },
-  { name: 'Resume', href: resumeLink, target:"_blank", rel:"noreferrer", current: false },
-  { name: 'Github', href: 'https://github.com/solderq35', target:"_blank", rel:"noreferrer", current: false },
-  { name: 'Email', href: 'mailto:huangjeff.cs@gmail.com', target:"_blank", rel:"noreferrer", current: false },
-  { name: 'LinkedIn', href: 'https://www.linkedin.com/in/huangjeffcs/', target:"_blank", rel:"noreferrer", current: false },
-]
+  { name: 'Home', href: '/', target: '_self', rel: 'noreferrer', current: false },
+  { name: 'Projects', href: 'projects', target: '_self', rel: 'noreferrer', current: false },
+  { name: 'Resume', href: resumeLink, target: '_blank', rel: 'noreferrer', current: false },
+  { name: 'Github', href: 'https://github.com/solderq35', target: '_blank', rel: 'noreferrer', current: false },
+  { name: 'Email', href: 'mailto:huangjeff.cs@gmail.com', target: '_blank', rel: 'noreferrer', current: false },
+  {
+    name: 'LinkedIn',
+    href: 'https://www.linkedin.com/in/huangjeffcs/',
+    target: '_blank',
+    rel: 'noreferrer',
+    current: false,
+  },
+];
 
 function classNames(...classes) {
-  return classes.filter(Boolean).join(' ')
+  return classes.filter(Boolean).join(' ');
 }
 
 export default function Navbar() {
@@ -38,18 +43,18 @@ export default function Navbar() {
                 </Disclosure.Button>
               </div>
               <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
-
                 <div className="hidden sm:block sm:ml-6">
                   <div className="flex space-x-4">
                     {navigation.map((item) => (
                       <a
-
                         key={item.name}
-						target = {item.target}
-						rel = {item.rel}
+                        target={item.target}
+                        rel={item.rel}
                         href={item.href}
                         className={classNames(
-                          item.current ? 'text-gray-100 hover:bg-gray-700 hover:text-white' : 'text-gray-100 hover:bg-gray-700 hover:text-white',
+                          item.current
+                            ? 'text-gray-100 hover:bg-gray-700 hover:text-white'
+                            : 'text-gray-100 hover:bg-gray-700 hover:text-white',
                           'px-3 py-2 rounded-md text-sm font-medium text-lg'
                         )}
                         aria-current={item.current ? 'page' : undefined}
@@ -61,10 +66,7 @@ export default function Navbar() {
                 </div>
               </div>
               <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-
-
                 {/* Profile dropdown */}
-               
               </div>
             </div>
           </div>
@@ -90,5 +92,5 @@ export default function Navbar() {
         </>
       )}
     </Disclosure>
-  )
+  );
 }

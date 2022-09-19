@@ -3,34 +3,30 @@
 @tailwind utilities;
 summary {
   cursor: pointer;
-  font-size:20px;
+  font-size: 20px;
   margin: 15px 0;
-
 }
 
 details {
-  font-size:1.125rem;
+  font-size: 1.125rem;
 }
 
 p {
-	font-size: 1.125rem;
+  font-size: 1.125rem;
 }
 
 .gist .markdown-body {
-	font-family: Verdana, sans-serif;
-	border-bottom: none;
+  font-family: Verdana, sans-serif;
+  border-bottom: none;
   border-radius: 0;
-  
 }
 
-.gist .markdown-body h2
-{
-	border-bottom: transparent !important;
+.gist .markdown-body h2 {
+  border-bottom: transparent !important;
 }
 
-.gist .markdown-body h1
-{
-	border-bottom: transparent !important;
+.gist .markdown-body h1 {
+  border-bottom: transparent !important;
 }
 
 body .gist .gist-data {
@@ -41,21 +37,20 @@ body .gist .gist-data {
   background-color: transparent;
 }
 
-a{
-color:blue;
-text-decoration: underline;
+a {
+  color: blue;
+  text-decoration: underline;
 }
 
 body .gist .gist-meta {
   display: none;
 }
-body
-{
-background-image: url('https://media.discordapp.net/attachments/833505136290299935/994333506975051776/New_Project_6.jpg');
-background-attachment: fixed;
+body {
+  background-image: url('https://media.discordapp.net/attachments/833505136290299935/994333506975051776/New_Project_6.jpg');
+  background-attachment: fixed;
 }
 
-.a2{
-	color:white;
-	text-decoration:none;
+.a2 {
+  color: white;
+  text-decoration: none;
 }
