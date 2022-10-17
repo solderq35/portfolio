@@ -1,5 +1,6 @@
 export default function Example() {
   return (
+    document.title = "Projects | Jeff Huang",
     <center>
       <h1 className="text-7xl my-10">
         {' '}
