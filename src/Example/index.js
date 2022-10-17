@@ -4,7 +4,7 @@ var resumeLink = globalVal.value;
 export default function index() {
   return (
     <div className="mx-auto w-full max-w-6xl pb-10 lg:py-12 lg:px-8 text-center">
-      <h1 className="text-9xl mt-20">
+      <h1 className="text-8xl mt-20">
         {' '}
         <b>Jeff Huang </b>
       </h1>
