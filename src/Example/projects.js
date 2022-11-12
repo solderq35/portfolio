@@ -80,19 +80,22 @@ export default function Example() {
 
         <div class="max-w-sm rounded overflow-hidden shadow-lg my-10">
           <img
-            src="https://camo.githubusercontent.com/bf51fa376b4ab79160a773b1c4090fc17ec5b17a8b68a3e6b4515c3c2cebe02b/68747470733a2f2f6d656469612e646973636f72646170702e6e65742f6174746163686d656e74732f3833333530353133363239303239393933352f3939333936313638343838363632323232392f756e6b6e6f776e2e706e673f77696474683d31343239266865696768743d363639"
+            src="https://media.discordapp.net/attachments/1018323831468851202/1041082105511293008/image.png"
             alt="new"
           />
           <div class="px-6 py-4 bg-white">
             <div class="font-bold text-xl mb-2">
-              <a href="https://github.com/solderq35/time-calc-under-5">HITMAN Milliseconds Time Calculator</a>
+              <a href="https://github.com/solderq35/timmy_mk_2">HITMAN Milliseconds Discord Bot</a>
             </div>
             <p class="text-gray-700 text-base text-left">
               Tool that calculates the exact completion time of a HITMAN level with milliseconds accuracy, based on the
               player's score (level completion times are only shown to the nearest second in-game).
               <ul className="list-disc list-inside">
-                <li>Built with vanilla JS + HTML</li>
-                <li>Up to 20 regular users in HITMAN speedrun community</li>
+                <li>Built with Discord.JS (Node.JS framework), hosted on AWS Lambda to decrease server costs</li>
+                <li>Up to 20 regular users in HITMAN speedrun community.</li>
+                <li>
+                  Used to break leaderboard ties and for pacing. Improved efficiency compared to doing the math by hand
+                </li>
               </ul>
             </p>
           </div>
