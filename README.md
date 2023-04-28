@@ -24,6 +24,7 @@ I've made modifications to the navbar and added a projects page.
 Runs the app in the development mode, launches at [http://localhost:3000](http://localhost:3000)
 
 `npm run prettier`
+
 Formats code
 
 ## Deployment
