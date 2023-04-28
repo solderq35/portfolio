@@ -1,19 +1,31 @@
-# Getting Started with react-navbar-tailwindcss
+## Site URL (Try it Yourself!)
+**https://jeff-huang.vercel.app/**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## About
+Lightweight, mobile-friendly portfolio site based on [this template](https://github.com/mmeurer00/react-navbar-tailwindcss) from Maxine Meurer. 
 
-_Ironically, it's a demo for a Tailwind CSS._
+I've made modifications to the navbar and added a projects page.
 
-## Available Scripts
+## Files to Edit / Resume Tips
+- Edit the file in `public/resume.pdf` to be your own resume
+    - If you need a resume format, see: https://www.overleaf.com/project/637e9858b32b991cfcc9ba80 (make your own copy on Overleaf)
+- Edit `src/Example/index.js` to cover your own personal details
+- Edit `src/Example/projects.js` to match your own personal projects
+- Edit `src/Navigation/Navbar.js` to have your social media links etc.
+- You may want to make further edits to the styling or add pages, use your imagination! In general, see:
+    - https://tailwindcss.com/
+    - https://react.dev/learn
 
-In the project directory, you can run:
 
-### `npm start`
+## Site Setup
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+`npm start`
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Runs the app in the development mode, launches at [http://localhost:3000](http://localhost:3000)
 
-Happy Coding!
+`npm run prettier`
+Formats code
+
+## Deployment
+Host on a frontend webhost of your choice, e.g. Github Pages, or in this case, Vercel. I'm using default Vercel settings.
+
