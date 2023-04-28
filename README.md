@@ -19,6 +19,8 @@ I've made modifications to the navbar and added a projects page.
 
 ## Site Setup
 
+It probably doesn't matter, but just in case, I am on node version `16.15.1` (run `node -v` in terminal to check). You can change node versions easily with [nvm for Unix](https://github.com/nvm-sh/nvm) or [nvm for Windows](https://github.com/coreybutler/nvm-windows)
+
 `npm start`
 
 Runs the app in the development mode, launches at [http://localhost:3000](http://localhost:3000)
