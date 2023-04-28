@@ -21,13 +21,14 @@ I've made modifications to the navbar and added a projects page.
 
 It probably doesn't matter, but just in case, I am on node version `16.15.1` (run `node -v` in terminal to check). You can change node versions easily with [nvm for Unix](https://github.com/nvm-sh/nvm) or [nvm for Windows](https://github.com/coreybutler/nvm-windows)
 
-`npm start`
+`npm install`
+  - Installs dependencies
 
-Runs the app in the development mode, launches at [http://localhost:3000](http://localhost:3000)
+`npm start`
+- Runs the app in the development mode, launches at [http://localhost:3000](http://localhost:3000)
 
 `npm run prettier`
-
-Formats code
+- Formats code
 
 ## Deployment
 Host on a frontend webhost of your choice, e.g. Github Pages, or in this case, Vercel. I'm using default Vercel settings.
