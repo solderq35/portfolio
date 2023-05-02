@@ -8,19 +8,18 @@ export default function Example() {
           <b> Projects </b>{' '}
         </h1>
 
-        <div class="max-w-lg rounded overflow-hidden shadow-lg mt-5">
+        <div className="max-w-lg rounded overflow-hidden shadow-lg mt-5">
           <img
             src="https://media.discordapp.net/attachments/1018323831468851202/1101311012537376889/image.png?width=1440&height=670"
             alt="new"
           />
-          <div class="px-6 py-4 bg-white">
-            <div class="font-bold text-xl mb-2">
+          <div className="px-6 py-4 bg-white">
+            <div className="font-bold text-xl mb-2">
               <a href="https://github.com/Nyumat/TalkToBeavs" target="_blank" rel="noopener noreferrer">
                 TalkToBeavs
               </a>
             </div>
-            <p class="text-gray-700 text-base text-left">
-              <ul className="list-disc list-inside">
+            <ul className="list-disc list-inside text-gray-700 text-base text-left">
                 <li>Social Media app for OSU Students, built on MERN stack</li>
                 <li>
                   Deployed a full stack Giphy API integration feature, allowing users to pick a GIF either a "trending"
@@ -37,23 +36,21 @@ export default function Example() {
                 </li>
                 <li>Nominated by professor for "Hall of Fame" in CS 494 Advanced Web Development course</li>
               </ul>
-            </p>
           </div>
         </div>
 
-        <div class="max-w-lg rounded overflow-hidden shadow-lg mt-5">
+        <div className="max-w-lg rounded overflow-hidden shadow-lg mt-5">
           <img
             src="https://media.discordapp.net/attachments/1018323831468851202/1101312355905831102/image.png?width=917&height=670"
             alt="new"
           />
-          <div class="px-6 py-4 bg-white">
-            <div class="font-bold text-xl mb-2">
+          <div className="px-6 py-4 bg-white">
+            <div className="font-bold text-xl mb-2">
               <a href="https://github.com/solderq35/fg-time-calc" target="_blank" rel="noopener noreferrer">
                 Full Game Time Calculator
               </a>
             </div>
-            <p class="text-gray-700 text-base text-left">
-              <ul className="list-disc list-inside">
+            <ul className="list-disc list-inside text-gray-700 text-base text-left">
                 <li>
                   Developed a tool that stores race splits as part of the website URL, thus avoiding database costs
                   (credits to the{' '}
@@ -79,26 +76,25 @@ export default function Example() {
                   )
                 </li>
               </ul>
-            </p>
+
           </div>
         </div>
 
-        <div class="max-w-lg rounded overflow-hidden shadow-lg my-10">
+        <div className="max-w-lg rounded overflow-hidden shadow-lg my-10">
           <img
             src="https://camo.githubusercontent.com/3ceeb65fd84169f479e699352c455851c10d28083c2b8435593bcb5479f9031d/68747470733a2f2f6d656469612e646973636f72646170702e6e65742f6174746163686d656e74732f3833333530353133363239303239393933352f3939333934393631373736303737323230362f756e6b6e6f776e2e706e673f77696474683d31313534266865696768743d363730"
             alt="new"
           />
-          <div class="px-6 py-4 bg-white">
-            <div class="font-bold text-xl mb-2">
+          <div className="px-6 py-4 bg-white">
+            <div className="font-bold text-xl mb-2">
               <a href="https://github.com/solderq35/hitruns" target="_blank" rel="noopener noreferrer">
                 Hitruns
               </a>
             </div>
 
-            <p class="text-gray-700 text-base text-left">
-              Mirror site of Hitman 3 leaderboard on Speedrun.com. <hr className="opacity-0" />{' '}
               <hr className="opacity-0" />
-              <ul className="list-disc list-inside">
+              <ul className="list-disc list-inside text-gray-700 text-base text-left">
+                <li>Mirror site of Hitman 3 leaderboard on Speedrun.com.</li>
                 <li>Developed a customized Hitman 3 leaderboard frontend, using data from the speedrun.com API</li>
                 <li>Designed mobile-friendly, responsive navbars, and dropdown menus using React Bootstrap</li>
                 <li>
@@ -118,23 +114,21 @@ export default function Example() {
                   , a Next.js feature
                 </li>
               </ul>
-            </p>
           </div>
         </div>
 
-        <div class="max-w-lg rounded overflow-hidden shadow-lg my-10">
+        <div className="max-w-lg rounded overflow-hidden shadow-lg my-10">
           <img
             src="https://camo.githubusercontent.com/e8e8d7f263770c29bc5ba09c4a8cca50af4585b2d60590a7d91373a9fd489c12/68747470733a2f2f6d656469612e646973636f72646170702e6e65742f6174746163686d656e74732f313031383332333833313436383835313230322f313034313138363835353831363830363438312f696d6167652e706e67"
             alt="new"
           />
-          <div class="px-6 py-4 bg-white">
-            <div class="font-bold text-xl mb-2">
+          <div className="px-6 py-4 bg-white">
+            <div className="font-bold text-xl mb-2">
               <a href="https://github.com/solderq35/timmy-mk-3" target="_blank" rel="noopener noreferrer">
                 Timmy Time Bot
               </a>
             </div>
-            <p class="text-gray-700 text-base text-left">
-              <ul className="list-disc list-inside">
+            <ul className="list-disc list-inside text-gray-700 text-base text-left">
                 <li>
                   Discord bot created to calculate millisecond times from Hitman level completions (not normally shown
                   in-game){' '}
@@ -145,23 +139,22 @@ export default function Example() {
                   framework, used in several Hitman speedrunning discord servers regularly
                 </li>
               </ul>
-            </p>
           </div>
         </div>
 
-        <div class="max-w-lg rounded overflow-hidden shadow-lg my-10">
+        <div className="max-w-lg rounded overflow-hidden shadow-lg my-10">
           <img
             src="https://media.discordapp.net/attachments/1018323831468851202/1101316955002118204/image.png?width=962&height=670"
             alt="new"
           />
-          <div class="px-6 py-4 bg-white">
-            <div class="font-bold text-xl mb-2">
+          <div className="px-6 py-4 bg-white">
+            <div className="font-bold text-xl mb-2">
               <a href="https://github.com/solderq35/osu-ssh-tutorial" target="_blank" rel="noopener noreferrer">
                 OSU SSH Tutorial
               </a>
             </div>
-            <p class="text-gray-700 text-base text-left">
-              <ul className="list-disc list-inside">
+
+              <ul className="list-disc list-inside text-gray-700 text-base text-left">
                 <li>
                   Wrote a comprehensive tutorial in Markdown for various SSH tips and tricks, to ensure OSU students can
                   safely and securely log into the ENGR servers via SSH{' '}
@@ -172,43 +165,40 @@ export default function Example() {
                 </li>
                 <li>Popularized by word-of-mouth in various OSU CS classes, helped many students debug SSH issues</li>
               </ul>
-            </p>
+
           </div>
         </div>
 
-        <div class="max-w-lg rounded overflow-hidden shadow-lg mt-5">
+        <div className="max-w-lg rounded overflow-hidden shadow-lg mt-5">
           <img
             src="https://camo.githubusercontent.com/6e288253dd83c9c9ad0117800f14d3ed7fbe74f99353585f2a7c01df0ac5ac9c/68747470733a2f2f6d656469612e646973636f72646170702e6e65742f6174746163686d656e74732f3833333530353133363239303239393933352f3939333937313837333130323731323935322f756e6b6e6f776e2e706e673f77696474683d373135266865696768743d363730"
             alt="new"
           />
-          <div class="px-6 py-4 bg-white">
-            <div class="font-bold text-xl mb-2">
+          <div className="px-6 py-4 bg-white">
+            <div className="font-bold text-xl mb-2">
               <a href="https://github.com/solderq35/hospital-website" target="_blank" rel="noopener noreferrer">
                 Hospital Website
               </a>
             </div>
-            <p class="text-gray-700 text-base text-left">
-              <ul className="list-disc list-inside">
+            <ul className="list-disc list-inside text-gray-700 text-base text-left">
                 <li>Built with NodeJS + SQL backend, Handlebars framework frontend</li>
                 <li>Users can create, update, read, and delete hospital database entries (CRUD functionality)</li>
               </ul>
-            </p>
           </div>
         </div>
 
-        <div class="max-w-lg rounded overflow-hidden shadow-lg mt-5">
+        <div className="max-w-lg rounded overflow-hidden shadow-lg mt-5">
           <img
             src="https://cdn.discordapp.com/attachments/833505136290299935/1013155601100066908/unknown.png"
             alt="new"
           />
-          <div class="px-6 py-4 bg-white">
-            <div class="font-bold text-xl mb-2">
+          <div className="px-6 py-4 bg-white">
+            <div className="font-bold text-xl mb-2">
               <a href="https://github.com/solderq35/wasteagram" target="_blank" rel="noopener noreferrer">
                 Wasteagram
               </a>
             </div>
-            <p class="text-gray-700 text-base text-left">
-              <ul className="list-disc list-inside">
+            <ul className="list-disc list-inside text-gray-700 text-base text-left">
                 <li>
                   Cross-platform mobile app built with Dart (Flutter Framework), user data hosted in the cloud on Google
                   Firebase
@@ -218,7 +208,6 @@ export default function Example() {
                   the item, date, and location
                 </li>
               </ul>
-            </p>
           </div>
         </div>
       </center>

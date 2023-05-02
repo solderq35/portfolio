@@ -2,13 +2,15 @@
 import { Fragment } from 'react';
 import { Disclosure } from '@headlessui/react';
 import { MenuIcon, XIcon } from '@heroicons/react/outline';
-import globalVal from '../globalResumeVar.js';
-var resumeLink = globalVal.value;
+
+const resumes = [
+  { name: 'SWE Resume', href: 'resume_SWE.pdf', target: '_blank', rel: 'noreferrer' },
+  { name: 'SEC Resume', href: 'resume_SEC.pdf', target: '_blank', rel: 'noreferrer' },
+];
 
 const navigation = [
   { name: 'Home', href: '/', target: '_self', rel: 'noreferrer', current: false },
   { name: 'Projects', href: 'projects', target: '_self', rel: 'noreferrer', current: false },
-  { name: 'Resume', href: resumeLink, target: '_blank', rel: 'noreferrer', current: false },
   { name: 'Github', href: 'https://github.com/solderq35', target: '_blank', rel: 'noreferrer', current: false },
   { name: 'Email', href: 'mailto:huangjeff.cs@gmail.com', target: '_blank', rel: 'noreferrer', current: false },
   {
@@ -27,7 +29,7 @@ function classNames(...classes) {
 export default function Navbar() {
   return (
     <Fragment>
-      <header class="sticky top-0 z-50">
+      <header className="sticky top-0 z-50">
         <Disclosure as="nav" className="bg-gray-800">
           {({ open }) => (
             <>
@@ -68,6 +70,41 @@ export default function Navbar() {
                             {item.name}
                           </a>
                         ))}
+                        <Disclosure>
+                          {({ open }) => (
+                            <>
+                              <Disclosure.Button
+                                className={classNames(
+                                  'text-gray-100 hover:bg-gray-700 hover:text-white',
+                                  'px-3 py-2 rounded-md text-sm font-medium text-lg',
+                                  open ? 'bg-gray-900' : ''
+                                )}
+                                style={{ textDecoration: 'underline' }}
+                              >
+                                {open ? 'Resume' : 'Resume'}
+                              </Disclosure.Button>
+                              <Disclosure.Panel
+                                className="absolute left-0 right-0 bg-gray-800 py-2 w-32"
+                                style={{
+                                  top: 'calc(100% + 5px)',
+                                  left: '530px',
+                                }}
+                              >
+                                {resumes.map((resume) => (
+                                  <a
+                                    key={resume.name}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    href={resume.href}
+                                    className="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
+                                  >
+                                    {resume.name}
+                                  </a>
+                                ))}
+                              </Disclosure.Panel>
+                            </>
+                          )}
+                        </Disclosure>
                       </div>
                     </div>
                   </div>
@@ -93,6 +130,35 @@ export default function Navbar() {
                       {item.name}
                     </Disclosure.Button>
                   ))}
+                  <Disclosure>
+                    {({ open }) => (
+                      <>
+                        <Disclosure.Button
+                          className={classNames(
+                            'text-gray-300 hover:bg-gray-700 hover:text-white',
+                            'block px-3 py-2 rounded-md text-base font-medium',
+                            open ? 'bg-gray-900 text-white' : ''
+                          )}
+                          style={{ textDecoration: 'underline' }}
+                        >
+                          {open ? 'Resume' : 'Resume'}
+                        </Disclosure.Button>
+                        <Disclosure.Panel className="px-2 pt-2 pb-3 space-y-1">
+                          {resumes.map((resume) => (
+                            <a
+                              key={resume.name}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              href={resume.href}
+                              className="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
+                            >
+                              {resume.name}
+                            </a>
+                          ))}
+                        </Disclosure.Panel>
+                      </>
+                    )}
+                  </Disclosure>
                 </div>
               </Disclosure.Panel>
             </>
