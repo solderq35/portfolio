@@ -312,7 +312,7 @@ export default function Example() {
                   <li>
                     As a key contributor to{' '}
                     <a href="https://github.com/thepeacockproject/Peacock" target="_blank" rel="noopener noreferrer">
-                      Peacock
+                      The Peacock Project
                     </a>{' '}
                     (Hitman server emulator), I submitted bug reports, provided tech support to users, and compiled
                     frequently asked questions onto a{' '}
