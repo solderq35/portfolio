@@ -8,9 +8,65 @@ export default function Example() {
           <b> Projects </b>{' '}
         </h1>
 
+        <h2 className="text-3xl my-10">
+          {' '}
+          <b> Software</b>{' '}
+        </h2>
+
         <div class="max-w-lg rounded overflow-hidden shadow-lg mt-5">
           <img
-            src="https://media.discordapp.net/attachments/1018323831468851202/1101311012537376889/image.png?width=1440&height=670"
+            src="https://media.discordapp.net/attachments/1090136863962058793/1103926413322625114/image.png"
+            alt="new"
+          />
+          <div class="px-6 py-4 bg-white">
+            <div class="font-bold text-xl mb-2">
+              <a href="https://github.com/OSU-Sustainability-Office" target="_blank" rel="noopener noreferrer">
+                OSU Sustainability Office (Paid Position)
+              </a>
+            </div>
+            <p class="text-gray-700 text-base text-left">
+              <ul className="list-disc list-inside">
+                <li>
+                  Implemented a full-stack solution (frontend, backend, webscraper CRON job) for{' '}
+                  <a
+                    href="https://dashboard.sustainability.oregonstate.edu/#/map"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Energy Dashboard
+                  </a>
+                  , a site tracking energy usage on campus, to automate uploading and displaying solar panel data
+                </li>
+                <li>
+                  Fixed issue with our frontend data store logic to better handle insuffient amounts of data, and
+                  display data better on our solar panel / "Kilowatt Crackdown Campaign" graphs, for{' '}
+                  <a
+                    href="https://dashboard.sustainability.oregonstate.edu/#/map"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Energy Dashboard
+                  </a>
+                </li>
+                <li>
+                  Debugged CORS errors and added wait time to API requests to fix login / data upload issues with{' '}
+                  <a href="https://myco2.sustainability.oregonstate.edu/#/" target="_blank" rel="noopener noreferrer">
+                    Carbon Calculator
+                  </a>
+                  , a site for tracking user carbon emissions
+                </li>
+                <li>
+                  Oversaw transition of CI pipeline from TravisCI to Github Actions due to limited resources / funding,
+                  saving an estimated 10% costs to OSU Sustainability Office monthly
+                </li>
+              </ul>
+            </p>
+          </div>
+        </div>
+
+        <div class="max-w-lg rounded overflow-hidden shadow-lg mt-5">
+          <img
+            src="https://media.discordapp.net/attachments/1018323831468851202/1101311012537376889/image.png"
             alt="new"
           />
           <div class="px-6 py-4 bg-white">
@@ -43,7 +99,7 @@ export default function Example() {
 
         <div class="max-w-lg rounded overflow-hidden shadow-lg mt-5">
           <img
-            src="https://media.discordapp.net/attachments/1018323831468851202/1101312355905831102/image.png?width=917&height=670"
+            src="https://media.discordapp.net/attachments/1018323831468851202/1101312355905831102/image.png"
             alt="new"
           />
           <div class="px-6 py-4 bg-white">
@@ -72,12 +128,13 @@ export default function Example() {
                   convenience
                 </li>
                 <li>
-                  Has been used in hundreds of Hitman full game speedruns, with a certified 100\% approval rating (check{' '}
+                  Has been used in hundreds of Hitman full game speedruns, with a certified 100% approval rating (check{' '}
                   <a href="https://www.speedrun.com/hitman_3/full_game" target="_blank" rel="noopener noreferrer">
                     here
                   </a>
                   )
                 </li>
+                <li>Reviewed Pull Requests from other developers as open source contributions</li>
               </ul>
             </p>
           </div>
@@ -106,7 +163,7 @@ export default function Example() {
                   submission comments, making it easier for users to see run splits at a glance
                 </li>
                 <li>
-                  Features 50\% faster loading times and responsiveness than the official speedrun.com site due to
+                  Features 50% faster loading times and responsiveness than the official speedrun.com site due to
                   streamlining leaderboard features, and caching website requests periodically with{' '}
                   <a
                     href="https://nextjs.org/docs/basic-features/data-fetching/get-static-props"
@@ -149,33 +206,6 @@ export default function Example() {
           </div>
         </div>
 
-        <div class="max-w-lg rounded overflow-hidden shadow-lg my-10">
-          <img
-            src="https://media.discordapp.net/attachments/1018323831468851202/1101316955002118204/image.png?width=962&height=670"
-            alt="new"
-          />
-          <div class="px-6 py-4 bg-white">
-            <div class="font-bold text-xl mb-2">
-              <a href="https://github.com/solderq35/osu-ssh-tutorial" target="_blank" rel="noopener noreferrer">
-                OSU SSH Tutorial
-              </a>
-            </div>
-            <p class="text-gray-700 text-base text-left">
-              <ul className="list-disc list-inside">
-                <li>
-                  Wrote a comprehensive tutorial in Markdown for various SSH tips and tricks, to ensure OSU students can
-                  safely and securely log into the ENGR servers via SSH{' '}
-                </li>
-                <li>
-                  Topics covered in guide include: SSH Key generation, SSH Config files, Proxyjump, Mapping Network
-                  drive, SCP CLI for file transfer, VSCode integration, Git SSH Keys{' '}
-                </li>
-                <li>Popularized by word-of-mouth in various OSU CS classes, helped many students debug SSH issues</li>
-              </ul>
-            </p>
-          </div>
-        </div>
-
         <div class="max-w-lg rounded overflow-hidden shadow-lg mt-5">
           <img
             src="https://camo.githubusercontent.com/6e288253dd83c9c9ad0117800f14d3ed7fbe74f99353585f2a7c01df0ac5ac9c/68747470733a2f2f6d656469612e646973636f72646170702e6e65742f6174746163686d656e74732f3833333530353133363239303239393933352f3939333937313837333130323731323935322f756e6b6e6f776e2e706e673f77696474683d373135266865696768743d363730"
@@ -191,6 +221,7 @@ export default function Example() {
               <ul className="list-disc list-inside">
                 <li>Built with NodeJS + SQL backend, Handlebars framework frontend</li>
                 <li>Users can create, update, read, and delete hospital database entries (CRUD functionality)</li>
+                <li>Simple input validation implemented (e.g. only allows numeric input for phone numbers)</li>
               </ul>
             </p>
           </div>
@@ -217,8 +248,121 @@ export default function Example() {
                   Users can create posts with information on wasted food items such as number of items wasted, photo of
                   the item, date, and location
                 </li>
+                <li>Implemented unit testing for good CI/CD, and simple error tracking with Sentry</li>
               </ul>
             </p>
+          </div>
+
+          <h2 className="text-3xl my-10">
+            {' '}
+            <b> Technical Writing </b>{' '}
+          </h2>
+
+          <div class="max-w-lg rounded overflow-hidden shadow-lg my-10">
+            <img
+              src="https://media.discordapp.net/attachments/1018323831468851202/1101316955002118204/image.png"
+              alt="new"
+            />
+            <div class="px-6 py-4 bg-white">
+              <div class="font-bold text-xl mb-2">
+                <a
+                  href="https://gitlab.com/osu-lug/projects/documentation/-/blob/master/docs/OSU/engr-servers.md"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  OSU SSH Tutorial
+                </a>
+              </div>
+              <p class="text-gray-700 text-base text-left">
+                <ul className="list-disc list-inside">
+                  <li>
+                    Wrote a comprehensive tutorial in Markdown for various SSH tips and tricks, to ensure OSU students
+                    can safely and securely log into the ENGR servers via SSH{' '}
+                  </li>
+                  <li>
+                    Topics covered in guide include: SSH Key generation, SSH Config files, Proxyjump, Mapping Network
+                    drive, SCP CLI for file transfer, VSCode integration, Git SSH Keys{' '}
+                  </li>
+                  <li>Popularized by word-of-mouth in various OSU CS classes, helped many students debug SSH issues</li>
+                  <li>
+                    Merged into{' '}
+                    <a href="https://gitlab.com/osu-lug" target="_blank" rel="noopener noreferrer">
+                      OSU Linux User Group
+                    </a>{' '}
+                    as an open source contribution
+                  </li>
+                </ul>
+              </p>
+            </div>
+          </div>
+
+          <div class="max-w-lg rounded overflow-hidden shadow-lg my-10">
+            <img
+              src="https://media.discordapp.net/attachments/1090136863962058793/1103935736241201162/image.png"
+              alt="new"
+            />
+            <div class="px-6 py-4 bg-white">
+              <div class="font-bold text-xl mb-2">
+                <a
+                  href="https://github.com/thepeacockproject/peacockprojectorg"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Peacock Wiki
+                </a>
+              </div>
+              <p class="text-gray-700 text-base text-left">
+                <ul className="list-disc list-inside">
+                  <li>
+                    Documentation for{' '}
+                    <a href="https://github.com/thepeacockproject/Peacock" target="_blank" rel="noopener noreferrer">
+                      Peacock
+                    </a>
+                    , a Hitman server emulator that runs on your own machine, deployed as a Docusaurus static website
+                    with search functionality
+                  </li>
+                  <li>
+                    Compiled a list of frequently asked questions users had with installing / using Peacock (e.g. port
+                    debugging), reducing the workload of Peacock devs significantly
+                  </li>
+                  <li>
+                    As part of the open source Peacock team, I also was a software tester, acted as tech support for
+                    more advanced issues on our Discord server, and acted as general community liaison with the Hitman 3
+                    speedrunning community, among other duties
+                  </li>
+                </ul>
+              </p>
+            </div>
+          </div>
+
+          <div class="max-w-lg rounded overflow-hidden shadow-lg my-10">
+            <img
+              src="https://media.discordapp.net/attachments/1090136863962058793/1103934392000327760/image.png"
+              alt="new"
+            />
+            <div class="px-6 py-4 bg-white">
+              <div class="font-bold text-xl mb-2">
+                <a href="https://github.com/solderq35/hitruns-wiki" target="_blank" rel="noopener noreferrer">
+                  Hitruns Wiki
+                </a>
+              </div>
+              <p class="text-gray-700 text-base text-left">
+                <ul className="list-disc list-inside">
+                  <li>
+                    Compilation of Hitman 3 speedrunning guides, deployed as a Docusaurus static website with search
+                    functionality
+                  </li>
+                  <li>
+                    Worked closely with the Hitman 3 speedrun community to identify commonly asked questions and
+                    answers, improving accessibility for new runners
+                  </li>
+                  <li>
+                    Documented a novel way of downpatching the Epic Game Store version of Hitman 3, crowdsourcing
+                    "manifest" files from the community for purposes of game preservation
+                  </li>
+                </ul>
+              </p>
+            </div>
           </div>
         </div>
       </center>
