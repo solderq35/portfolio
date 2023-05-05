@@ -314,21 +314,35 @@ export default function Example() {
               <p class="text-gray-700 text-base text-left">
                 <ul className="list-disc list-inside">
                   <li>
-                    Documentation for{' '}
+                    As a key contributor to{' '}
                     <a href="https://github.com/thepeacockproject/Peacock" target="_blank" rel="noopener noreferrer">
                       Peacock
+                    </a>{' '}
+                    (Hitman server emulator), I submitted bug reports, provided tech support to users, and compiled
+                    frequently asked questions onto a{' '}
+                    <a href="https://thepeacockproject.org/wiki/" target="_blank" rel="noopener noreferrer">
+                      wiki
+                    </a>{' '}
+                    via Docusaurus framework
+                  </li>
+                  <li>
+                    By providing detailed instructions on how to debug common problems like{' '}
+                    <a
+                      href="https://thepeacockproject.org/wiki/intel/faq/#connection-troubleshooting"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      connection issues
                     </a>
-                    , a Hitman server emulator that runs on your own machine, deployed as a Docusaurus static website
-                    with search functionality
+                    , I saved the other Peacock devs countless hours that would have otherwise been spent answering
+                    repetitive questions
                   </li>
                   <li>
-                    Compiled a list of frequently asked questions users had with installing / using Peacock (e.g. port
-                    debugging), reducing the workload of Peacock devs significantly
-                  </li>
-                  <li>
-                    As part of the open source Peacock team, I also was a software tester, acted as tech support for
-                    more advanced issues on our Discord server, and acted as general community liaison with the Hitman 3
-                    speedrunning community, among other duties
+                    Worked closely with the Hitman speedrun community to identify and coordinate new features with the
+                    Peacock dev team, such as integrations with Livesplit and my{' '}
+                    <a href="https://solderq35.github.io/fg-time-calc/" target="_blank" rel="noopener noreferrer">
+                      Full Game Calculator
+                    </a>
                   </li>
                 </ul>
               </p>
