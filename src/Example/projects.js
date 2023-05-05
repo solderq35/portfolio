@@ -304,7 +304,7 @@ export default function Example() {
             <div class="px-6 py-4 bg-white">
               <div class="font-bold text-xl mb-2">
                 <a href="https://github.com/thepeacockproject/Peacock" target="_blank" rel="noopener noreferrer">
-                  Peacock
+                  The Peacock Project
                 </a>
               </div>
               <p class="text-gray-700 text-base text-left">
@@ -314,7 +314,7 @@ export default function Example() {
                     <a href="https://github.com/thepeacockproject/Peacock" target="_blank" rel="noopener noreferrer">
                       The Peacock Project
                     </a>{' '}
-                    (Hitman server emulator), I submitted bug reports, provided tech support to users, and compiled
+                    (a Hitman server emulator), I submitted bug reports, provided tech support to users, and compiled
                     frequently asked questions onto a{' '}
                     <a href="https://thepeacockproject.org/wiki/" target="_blank" rel="noopener noreferrer">
                       wiki
