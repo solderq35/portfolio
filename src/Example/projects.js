@@ -303,12 +303,8 @@ export default function Example() {
             />
             <div class="px-6 py-4 bg-white">
               <div class="font-bold text-xl mb-2">
-                <a
-                  href="https://github.com/thepeacockproject/peacockprojectorg"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Peacock Wiki
+                <a href="https://github.com/thepeacockproject/Peacock" target="_blank" rel="noopener noreferrer">
+                  Peacock
                 </a>
               </div>
               <p class="text-gray-700 text-base text-left">
