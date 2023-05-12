@@ -349,7 +349,7 @@ export default function Project() {
                       shown in-game){' '}
                     </li>
                     <li>
-                      Derived a novel mathematical formula for this based on trial and error, an also implemented this
+                      Derived a novel mathematical formula for this based on trial and error, and also implemented this
                       as a{' '}
                       <a
                         href="https://solderq35.github.io/time-calc-under-5/"
