@@ -41,4 +41,14 @@ body {
     padding: 10px;
     background-color: transparent; /* make the background transparent */
   }
+
+  /* Target odd-numbered items (i.e., the first, third, fifth, etc.) */
+  .item:nth-child(odd) {
+    margin-right: -100px;
+  }
+
+  /* Target even-numbered items (i.e., the second, fourth, sixth, etc.) */
+  .item:nth-child(even) {
+    margin-left: -100px;
+  }
 }
