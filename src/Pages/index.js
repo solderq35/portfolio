@@ -15,18 +15,17 @@ export default function index() {
           Hi, I'm a third year student at Oregon State University, pursuing a computer science degree with a focus on
           web development.
         </p>
-
-        <button class="bg-blue-600 hover:bg-blue-900 text-white font-bold py-2.5 px-4 rounded my-6 text-2xl mx-5">
-          <a href="/projects" class="a2">
+        <a href="/projects" class="a2">
+          <button class="bg-blue-600 hover:bg-blue-900 text-white font-bold py-2.5 px-4 rounded my-6 text-2xl mx-5">
             Projects
-          </a>
-        </button>
+          </button>
+        </a>
 
-        <button class="bg-blue-600 hover:bg-blue-900 text-white font-bold py-2.5 px-4 rounded my-6 text-2xl mx-5">
-          <a href={resumeLink} target="_blank" rel="noreferrer" class="a2">
+        <a href={resumeLink} target="_blank" rel="noreferrer" class="a2">
+          <button class="bg-blue-600 hover:bg-blue-900 text-white font-bold py-2.5 px-4 rounded my-6 text-2xl mx-5">
             Resume
-          </a>
-        </button>
+          </button>
+        </a>
       </div>
     )
   );

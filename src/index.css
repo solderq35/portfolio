@@ -29,3 +29,16 @@ body {
   color: white;
   text-decoration: none;
 }
+
+/* apply the grid layout only on screens wider than 768px */
+@media screen and (min-width: 768px) {
+  .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .item {
+    padding: 10px;
+    background-color: transparent; /* make the background transparent */
+  }
+}
