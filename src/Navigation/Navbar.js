@@ -27,7 +27,7 @@ function classNames(...classes) {
 export default function Navbar() {
   return (
     <Fragment>
-      <header class="sticky top-0 z-50">
+      <header className="sticky top-0 z-50">
         <Disclosure as="nav" className="bg-gray-800">
           {({ open }) => (
             <>
