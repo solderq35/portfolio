@@ -169,17 +169,17 @@ export default function Project() {
                       >
                         new feature
                       </a>{' '}
-                      for LosslessCut, a lightweight ross-platform video editor.
+                      for LosslessCut, a lightweight ross-platform video editor
                     </li>
                     <li>
                       My new feature adds current timestamps as part of the output file names to ensure unique
-                      identifieres and to prevent accidental file overwrites when editing the same video rapidly.
+                      identifiers and to prevent accidental file overwrites when editing the same video rapidly
                     </li>
                     <li>
                       Communicated with maintainer to ensure a good UX by creating helpful error messages if they use my
-                      new feature incorrectly.
+                      new feature incorrectly
                     </li>
-                    <li>Documented and tested my code thoroughly; used video demos to demonstrate what my PR did.</li>
+                    <li>Documented and tested my code thoroughly; used video demos to demonstrate what my PR did</li>
                     <li>
                       PR was merged after a back-and-forth; my changes will eventually hit the production version of
                       LosslessCut, which has <b>16,000 Stars on Github</b>
@@ -303,7 +303,6 @@ export default function Project() {
                 </div>
 
                 <p class="text-gray-700 text-base text-left">
-                  Mirror site of Hitman 3 leaderboard on Speedrun.com. <hr className="opacity-0" />{' '}
                   <hr className="opacity-0" />
                   <ul className="list-disc list-inside">
                     <li>Developed a customized Hitman 3 leaderboard frontend, using data from the speedrun.com API</li>
@@ -369,7 +368,7 @@ export default function Project() {
                       >
                         documented this
                       </a>{' '}
-                      so that users are well informed about the limitations of my software.
+                      so that users are well informed about the limitations of my software
                     </li>
                     <li>20 daily users, a majority of the active Hitman speedrun community playerbase </li>
                     <li>
