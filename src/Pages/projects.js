@@ -169,7 +169,7 @@ export default function Project() {
                       >
                         new feature
                       </a>{' '}
-                      for LosslessCut, a lightweight ross-platform video editor
+                      for LosslessCut, a lightweight cross-platform video editor
                     </li>
                     <li>
                       My new feature adds current timestamps as part of the output file names to ensure unique
