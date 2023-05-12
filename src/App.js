@@ -1,7 +1,7 @@
 import './index.css';
 import Navbar from './Navigation/Navbar.js';
-import Index from './Example/index';
-import Projects from './Example/projects';
+import Index from './Pages/index';
+import Projects from './Pages/projects';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
