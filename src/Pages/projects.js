@@ -30,7 +30,15 @@ export default function Project() {
                 <div className="text-gray-700 text-base text-left">
                   <ul className="list-disc list-inside">
                     <li>
-                      Implemented a full-stack solution (frontend, backend, webscraper CRON job) for{' '}
+                      Implemented a{' '}
+                      <a
+                        href="https://github.com/OSU-Sustainability-Office/automated-jobs/pull/3"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        full stack solution
+                      </a>
+                      (frontend, backend, webscraper CRON job) to automate uploading and displaying solar panel data for{' '}
                       <a
                         href="https://dashboard.sustainability.oregonstate.edu/#/map"
                         target="_blank"
@@ -38,11 +46,18 @@ export default function Project() {
                       >
                         Energy Dashboard
                       </a>
-                      , a site tracking energy usage on campus, to automate uploading and displaying solar panel data
+                      , a site tracking energy usage on campus
                     </li>
                     <li>
-                      Fixed issue with our frontend data store logic to better handle insuffient amounts of data, and
-                      display data better on our solar panel / "Kilowatt Crackdown Campaign" graphs, for{' '}
+                      <a
+                        href="https://github.com/OSU-Sustainability-Office/energy-dashboard/pull/216"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Fixed issue with our frontend data store logic
+                      </a>{' '}
+                      to better handle insuffient amounts of data, and display data better on our solar panel /
+                      "Kilowatt Crackdown Campaign" graphs, for{' '}
                       <a
                         href="https://dashboard.sustainability.oregonstate.edu/#/map"
                         target="_blank"
@@ -52,7 +67,14 @@ export default function Project() {
                       </a>
                     </li>
                     <li>
-                      Debugged CORS errors and added wait time to API requests to fix login / data upload issues with{' '}
+                      <a
+                        href="https://github.com/OSU-Sustainability-Office/osu_carbon_calculator_update_project/issues/39"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Debugged CORS errors
+                      </a>{' '}
+                      and added wait time to API requests to fix login / data upload issues with{' '}
                       <a
                         href="https://myco2.sustainability.oregonstate.edu/#/"
                         target="_blank"
@@ -63,8 +85,28 @@ export default function Project() {
                       , a site for tracking user carbon emissions
                     </li>
                     <li>
-                      Oversaw transition of CI pipeline from TravisCI to Github Actions due to limited resources /
-                      funding, saving an estimated 10% costs to OSU Sustainability Office monthly
+                      Oversaw{' '}
+                      <a
+                        href="https://github.com/OSU-Sustainability-Office/osu_carbon_calculator_update_project/pull/34"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        transition of CI pipeline from TravisCI to Github Actions
+                      </a>{' '}
+                      due to limited resources / funding, saving an estimated 10% costs to OSU Sustainability Office
+                      monthly
+                    </li>
+                    <li>
+                      Implemented a{' '}
+                      <a
+                        href="https://github.com/OSU-Sustainability-Office/automated-jobs/pull/10"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Node.js script to ping all our API endpoints
+                      </a>{' '}
+                      to check our Energy Dashboard Database every 2 days, and send emails via AWS SNS if any meter API
+                      endpoints are down.
                     </li>
                   </ul>
                 </div>
@@ -425,6 +467,10 @@ export default function Project() {
                     <li>
                       Combining several related projects' worth of documentation into one wiki is more efficient /
                       better UX.
+                    </li>
+                    <li>
+                      Includes more detailed guides on specific tasks like adding new meters or solar panel endpoints to
+                      the energy dashboard.
                     </li>
                     <li>
                       Search function on wiki makes it worth over just hosting multiple Markdown files on Github only
