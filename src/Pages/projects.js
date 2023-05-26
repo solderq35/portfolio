@@ -469,6 +469,176 @@ export default function Project() {
                       better UX.
                     </li>
                     <li>
+                      Search function on wiki makes it worth over just hosting multiple Markdown files on Github only
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="item">
+            {' '}
+            <div className="max-w-lg rounded overflow-hidden shadow-lg mt-5 h-256">
+              <img
+                src="https://media.discordapp.net/attachments/1090136863962058793/1103934392000327760/image.png"
+                alt="new"
+              />
+              <div className="px-6 py-4 bg-white">
+                <div className="font-bold text-xl mb-2">
+                  <a href="https://github.com/solderq35/hitruns-wiki" target="_blank" rel="noopener noreferrer">
+                    Hitruns Wiki
+                  </a>
+                </div>
+                <div className="text-gray-700 text-base text-left">
+                  <ul className="list-disc list-inside">
+                    <li>
+                      Compilation of Hitman 3 speedrunning guides, deployed as a Docusaurus static website with search
+                      functionality
+                    </li>
+                    <li>
+                      Worked closely with the Hitman 3 speedrun community to identify commonly asked questions and
+                      answers, improving accessibility for new runners
+                    </li>
+                    <li>
+                      Documented a novel way of downpatching the Epic Game Store version of Hitman 3, crowdsourcing
+                      "manifest" files from the community for purposes of game preservation
+                    </li>
+                    <li>
+                      In addition to Hitman speedrunning, the wiki covers a variety of topics like general information
+                      on Hitman modding, common tech support issues, common questions on how to buy the game (DLC
+                      issues)
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="item">
+            {' '}
+            <div className="max-w-lg rounded overflow-hidden shadow-lg mt-5 h-256">
+              <img
+                src="https://media.discordapp.net/attachments/1018323831468851202/1101316955002118204/image.png"
+                alt="new"
+              />
+              <div className="px-6 py-4 bg-white">
+                <div className="font-bold text-xl mb-2">
+                  <a
+                    href="https://gitlab.com/osu-lug/projects/documentation/-/blob/master/docs/OSU/engr-servers.md"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    OSU SSH Tutorial
+                  </a>
+                </div>
+                <div className="text-gray-700 text-base text-left">
+                  <ul className="list-disc list-inside">
+                    <li>
+                      Wrote a comprehensive tutorial in Markdown for various SSH tips and tricks, to ensure OSU students
+                      can safely and securely log into the ENGR servers via SSH{' '}
+                    </li>
+                    <li>
+                      Topics covered in guide include: SSH Key generation, SSH Config files, Proxyjump, Mapping Network
+                      drive, SCP CLI for file transfer, VSCode integration, Git SSH Keys{' '}
+                    </li>
+                    <li>
+                      Popularized by word-of-mouth in various OSU CS classes, helped many students debug SSH issues
+                    </li>
+                    <li>
+                      Merged into{' '}
+                      <a href="https://gitlab.com/osu-lug" target="_blank" rel="noopener noreferrer">
+                        OSU Linux User Group
+                      </a>{' '}
+                      as an open source contribution
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h2 className="text-5xl my-10">
+          {' '}
+          <b> Technical Writing </b>{' '}
+        </h2>
+        <div className="container">
+          <div className="item">
+            {' '}
+            <div className="max-w-lg rounded overflow-hidden shadow-lg mt-5 h-256">
+              <img
+                src="https://media.discordapp.net/attachments/1090136863962058793/1103935736241201162/image.png"
+                alt="new"
+              />
+              <div className="px-6 py-4 bg-white">
+                <div className="font-bold text-xl mb-2">
+                  <a href="https://github.com/thepeacockproject/Peacock" target="_blank" rel="noopener noreferrer">
+                    The Peacock Project
+                  </a>
+                </div>
+                <div className="text-gray-700 text-base text-left">
+                  <ul className="list-disc list-inside">
+                    <li>
+                      As a key contributor to{' '}
+                      <a href="https://github.com/thepeacockproject/Peacock" target="_blank" rel="noopener noreferrer">
+                        The Peacock Project
+                      </a>{' '}
+                      (a Hitman server emulator), I submitted bug reports, provided tech support to users, and compiled
+                      frequently asked questions onto a{' '}
+                      <a href="https://thepeacockproject.org/wiki/" target="_blank" rel="noopener noreferrer">
+                        wiki
+                      </a>{' '}
+                      via Docusaurus framework
+                    </li>
+                    <li>
+                      By providing detailed instructions on how to debug common problems like{' '}
+                      <a
+                        href="https://thepeacockproject.org/wiki/intel/faq/#connection-troubleshooting"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        connection issues
+                      </a>
+                      , I saved the other Peacock devs countless hours that would have otherwise been spent answering
+                      repetitive questions
+                    </li>
+                    <li>
+                      Worked closely with the Hitman speedrun community to identify and coordinate new features with the
+                      Peacock dev team, such as integrations with Livesplit and my{' '}
+                      <a href="https://solderq35.github.io/fg-time-calc/" target="_blank" rel="noopener noreferrer">
+                        Full Game Calculator
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="item">
+            {' '}
+            <div className="max-w-lg rounded overflow-hidden shadow-lg mt-5 h-256">
+              <img
+                src="https://media.discordapp.net/attachments/1090136799696916602/1108920690985422918/image.png"
+                alt="new"
+              />
+              <div className="px-6 py-4 bg-white">
+                <div className="font-bold text-xl mb-2">
+                  <a
+                    href="https://github.com/OSU-Sustainability-Office/osu-sustainability-office.github.io"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    OSU Sustainability Office Wiki
+                  </a>
+                </div>
+                <div className="text-gray-700 text-base text-left">
+                  <ul className="list-disc list-inside">
+                    <li>
+                      I basically used my gaming wiki expertise to use it for my paid work (OSU Sustainability Office)
+                    </li>
+                    <li>
+                      Combining several related projects' worth of documentation into one wiki is more efficient /
+                      better UX.
+                    </li>
+                    <li>
                       Includes more detailed guides on specific tasks like adding new meters or solar panel endpoints to
                       the energy dashboard.
                     </li>
