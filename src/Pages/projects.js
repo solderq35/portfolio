@@ -37,7 +37,7 @@ export default function Project() {
                         rel="noopener noreferrer"
                       >
                         full stack solution
-                      </a>
+                      </a>{' '}
                       (frontend, backend, webscraper CRON job) to automate uploading and displaying solar panel data for{' '}
                       <a
                         href="https://dashboard.sustainability.oregonstate.edu/#/map"
