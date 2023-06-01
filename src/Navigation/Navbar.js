@@ -9,15 +9,7 @@ const navigation = [
   { name: 'Home', href: '/', target: '_self', rel: 'noreferrer', current: false },
   { name: 'Projects', href: 'projects', target: '_self', rel: 'noreferrer', current: false },
   { name: 'Resume', href: resumeLink, target: '_blank', rel: 'noreferrer', current: false },
-  { name: 'Github', href: 'https://github.com/solderq35', target: '_blank', rel: 'noreferrer', current: false },
-  { name: 'Email', href: 'mailto:huangjeff.cs@gmail.com', target: '_blank', rel: 'noreferrer', current: false },
-  {
-    name: 'LinkedIn',
-    href: 'https://www.linkedin.com/in/huangjeffcs/',
-    target: '_blank',
-    rel: 'noreferrer',
-    current: false,
-  },
+  { name: 'Contact Me', href: 'contact', target: '_self', rel: 'noreferrer', current: false },
 ];
 
 function classNames(...classes) {
