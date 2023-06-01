@@ -684,11 +684,7 @@ export default function Project() {
               />
               <div className="px-6 py-4 bg-white">
                 <div className="font-bold text-xl mb-2">
-                  <a
-                    href="https://www.youtube.com/@Solderq35"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
+                  <a href="https://www.youtube.com/@Solderq35" target="_blank" rel="noopener noreferrer">
                     YouTube
                   </a>
                 </div>
@@ -768,11 +764,7 @@ export default function Project() {
               />
               <div className="px-6 py-4 bg-white">
                 <div className="font-bold text-xl mb-2">
-                  <a
-                    href="https://youtu.be/odnEFBNQWA8"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
+                  <a href="https://youtu.be/odnEFBNQWA8" target="_blank" rel="noopener noreferrer">
                     Music
                   </a>
                 </div>
