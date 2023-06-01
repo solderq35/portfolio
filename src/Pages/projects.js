@@ -685,7 +685,7 @@ export default function Project() {
               <div className="px-6 py-4 bg-white">
                 <div className="font-bold text-xl mb-2">
                   <a
-                    href="https://github.com/OSU-Sustainability-Office/osu-sustainability-office.github.io"
+                    href="https://www.youtube.com/@Solderq35"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -727,7 +727,7 @@ export default function Project() {
               />
               <div className="px-6 py-4 bg-white">
                 <div className="font-bold text-xl mb-2">
-                  <a href="https://github.com/solderq35/hitruns-wiki" target="_blank" rel="noopener noreferrer">
+                  <a href="https://space.bilibili.com/1174271590" target="_blank" rel="noopener noreferrer">
                     Bilibili
                   </a>
                 </div>
@@ -769,7 +769,7 @@ export default function Project() {
               <div className="px-6 py-4 bg-white">
                 <div className="font-bold text-xl mb-2">
                   <a
-                    href="https://gitlab.com/osu-lug/projects/documentation/-/blob/master/docs/OSU/engr-servers.md"
+                    href="https://youtu.be/odnEFBNQWA8"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
