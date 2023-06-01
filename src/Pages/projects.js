@@ -686,6 +686,7 @@ export default function Project() {
                 <div className="font-bold text-xl mb-2">
                   <a
                     href="https://www.youtube.com/@Solderq35"
+                    href="https://github.com/OSU-Sustainability-Office/osu-sustainability-office.github.io"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
