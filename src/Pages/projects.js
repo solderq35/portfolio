@@ -16,7 +16,7 @@ export default function Project() {
         <div className="container">
           <div className="item">
             {' '}
-            <div className="max-w-lg rounded overflow-hidden shadow-lg mt-5 h-256">
+            <div className="max-w-lg rounded overflow-hidden mt-5 h-256">
               <img
                 src="https://media.discordapp.net/attachments/1090136863962058793/1103926413322625114/image.png"
                 alt="new"
@@ -115,7 +115,7 @@ export default function Project() {
           </div>
           <div className="item">
             {' '}
-            <div className="max-w-lg rounded overflow-hidden shadow-lg mt-5 h-256">
+            <div className="max-w-lg rounded overflow-hidden mt-5 h-256">
               <img
                 src="https://media.discordapp.net/attachments/1018323831468851202/1101311012537376889/image.png"
                 alt="new"
@@ -151,7 +151,7 @@ export default function Project() {
 
           <div className="item">
             {' '}
-            <div className="max-w-lg rounded overflow-hidden shadow-lg mt-5 h-256">
+            <div className="max-w-lg rounded overflow-hidden mt-5 h-256">
               <img
                 src="https://user-images.githubusercontent.com/82061589/230786333-be52d168-0450-4e9f-8262-22cd8e478d4b.png"
                 alt="new"
@@ -196,7 +196,7 @@ export default function Project() {
 
           <div className="item">
             {' '}
-            <div className="max-w-lg rounded overflow-hidden shadow-lg mt-5 h-256">
+            <div className="max-w-lg rounded overflow-hidden mt-5 h-256">
               <img
                 src="https://media.discordapp.net/attachments/1018323831468851202/1101312355905831102/image.png"
                 alt="new"
@@ -242,7 +242,7 @@ export default function Project() {
           </div>
           <div className="item">
             {' '}
-            <div className="max-w-lg rounded overflow-hidden shadow-lg mt-5 h-256">
+            <div className="max-w-lg rounded overflow-hidden mt-5 h-256">
               <img
                 src="https://camo.githubusercontent.com/3ceeb65fd84169f479e699352c455851c10d28083c2b8435593bcb5479f9031d/68747470733a2f2f6d656469612e646973636f72646170702e6e65742f6174746163686d656e74732f3833333530353133363239303239393933352f3939333934393631373736303737323230362f756e6b6e6f776e2e706e673f77696474683d31313534266865696768743d363730"
                 alt="new"
@@ -282,7 +282,7 @@ export default function Project() {
           </div>
           <div className="item">
             {' '}
-            <div className="max-w-lg rounded overflow-hidden shadow-lg mt-5 h-256">
+            <div className="max-w-lg rounded overflow-hidden mt-5 h-256">
               <img
                 src="https://camo.githubusercontent.com/e8e8d7f263770c29bc5ba09c4a8cca50af4585b2d60590a7d91373a9fd489c12/68747470733a2f2f6d656469612e646973636f72646170702e6e65742f6174746163686d656e74732f313031383332333833313436383835313230322f313034313138363835353831363830363438312f696d6167652e706e67"
                 alt="new"
@@ -335,7 +335,7 @@ export default function Project() {
 
           <div className="item">
             {' '}
-            <div className="max-w-lg rounded overflow-hidden shadow-lg mt-5 h-256">
+            <div className="max-w-lg rounded overflow-hidden mt-5 h-256">
               <img
                 src="https://camo.githubusercontent.com/6e288253dd83c9c9ad0117800f14d3ed7fbe74f99353585f2a7c01df0ac5ac9c/68747470733a2f2f6d656469612e646973636f72646170702e6e65742f6174746163686d656e74732f3833333530353133363239303239393933352f3939333937313837333130323731323935322f756e6b6e6f776e2e706e673f77696474683d373135266865696768743d363730"
                 alt="new"
@@ -358,7 +358,7 @@ export default function Project() {
           </div>
           <div className="item">
             {' '}
-            <div className="max-w-lg rounded overflow-hidden shadow-lg mt-5 h-256">
+            <div className="max-w-lg rounded overflow-hidden mt-5 h-256">
               <img
                 src="https://cdn.discordapp.com/attachments/833505136290299935/1013155601100066908/unknown.png"
                 alt="new"
@@ -393,7 +393,7 @@ export default function Project() {
         <div className="container">
           <div className="item">
             {' '}
-            <div className="max-w-lg rounded overflow-hidden shadow-lg mt-5 h-256">
+            <div className="max-w-lg rounded overflow-hidden mt-5 h-256">
               <img
                 src="https://media.discordapp.net/attachments/1090136863962058793/1103935736241201162/image.png"
                 alt="new"
@@ -444,7 +444,7 @@ export default function Project() {
           </div>
           <div className="item">
             {' '}
-            <div className="max-w-lg rounded overflow-hidden shadow-lg mt-5 h-256">
+            <div className="max-w-lg rounded overflow-hidden mt-5 h-256">
               <img
                 src="https://media.discordapp.net/attachments/1090136799696916602/1108920690985422918/image.png"
                 alt="new"
@@ -482,7 +482,7 @@ export default function Project() {
           </div>
           <div className="item">
             {' '}
-            <div className="max-w-lg rounded overflow-hidden shadow-lg mt-5 h-256">
+            <div className="max-w-lg rounded overflow-hidden mt-5 h-256">
               <img
                 src="https://media.discordapp.net/attachments/1090136863962058793/1103934392000327760/image.png"
                 alt="new"
@@ -519,7 +519,7 @@ export default function Project() {
           </div>
           <div className="item">
             {' '}
-            <div className="max-w-lg rounded overflow-hidden shadow-lg mt-5 h-256">
+            <div className="max-w-lg rounded overflow-hidden mt-5 h-256">
               <img
                 src="https://media.discordapp.net/attachments/1018323831468851202/1101316955002118204/image.png"
                 alt="new"
@@ -553,6 +553,263 @@ export default function Project() {
                         OSU Linux User Group
                       </a>{' '}
                       as an open source contribution
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h2 className="text-5xl my-10">
+          {' '}
+          <b> Miscellaneous </b>{' '}
+        </h2>
+        <div className="container">
+          <div className="item">
+            {' '}
+            <div className="max-w-lg rounded overflow-hidden mt-5 h-256">
+              <img
+                src="https://media.discordapp.net/attachments/1018323831468851202/1113955318779613375/image.png"
+                alt="new"
+              />
+              <div className="px-6 py-4 bg-white">
+                <div className="font-bold text-xl mb-2">
+                  <a href="https://www.speedrun.com/hitman_3" target="_blank" rel="noopener noreferrer">
+                    Hitman Speedrunning
+                  </a>
+                </div>
+                <div className="text-gray-700 text-base text-left">
+                  <ul className="list-disc list-inside">
+                    <li>
+                      {' '}
+                      <a href="https://www.speedrun.com/user/Solderq35" target="_blank" rel="noopener noreferrer">
+                        Lead Moderator
+                      </a>{' '}
+                      of the Hitman WoA Speedrunning Community since 2020. Led community discussions and polls for rule
+                      changes, verified runs to prevent cheating, promoted the growth of Hitman speedrunning worldwide
+                    </li>
+                    <li>
+                      Discovered and / or popularized (non exhaustive):{' '}
+                      <a
+                        href="https://www.youtube.com/watch?v=ie1Zu2r27Ic&t=17s"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        This panic technique for the Romania level
+                      </a>{' '}
+                      |{' '}
+                      <a href="https://youtu.be/GMM85dJpTQ8?t=128" target="_blank" rel="noopener noreferrer">
+                        this technique for shooting just one bullet out of a window with an automatic weapon
+                      </a>{' '}
+                      |{' '}
+                      <a
+                        href="https://hitruns-wiki.vercel.app/docs/downpatching#epic-legendary"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        this technique for downpatching the game version on Epic
+                      </a>
+                      . These discoveries are still used by many runners to this day
+                    </li>
+                    <li>
+                      Popularized and was the first runner to make a serious attempt at beating the Hitman WoA trilogy
+                      in one sitting as fast as possible (Hitman Trilogy SA/SO Speedrun), on both{' '}
+                      <a
+                        href="https://www.speedrun.com/hitman_3/run/yd9wq9xz"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Professional
+                      </a>{' '}
+                      and{' '}
+                      <a
+                        href="https://www.speedrun.com/hitman_3/run/ylo8303y"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Master
+                      </a>{' '}
+                      difficulties
+                    </li>
+                    <li>
+                      I personally coached popular streamers and content creators like{' '}
+                      <a href="https://www.twitch.tv/atrioc" target="_blank" rel="noopener noreferrer">
+                        Atrioc
+                      </a>
+                      ,{' '}
+                      <a href="https://www.twitch.tv/elajjaz" target="_blank" rel="noopener noreferrer">
+                        Elajjaz
+                      </a>
+                      ,{' '}
+                      <a href="https://www.twitch.tv/linkus7" target="_blank" rel="noopener noreferrer">
+                        Linkus7
+                      </a>
+                      ,{' '}
+                      <a href="https://www.twitch.tv/aspecticor" target="_blank" rel="noopener noreferrer">
+                        Aspecticor
+                      </a>
+                      , and{' '}
+                      <a href="https://www.twitch.tv/karmikkoala" target="_blank" rel="noopener noreferrer">
+                        KarmikKoala{' '}
+                      </a>
+                      (Russian speaking fanbase), helping them grow their brand and skill as Hitman speedrunners
+                    </li>
+                    <li>
+                      Acted as ambassador to the Chinese speedrunning community by{' '}
+                      <a href="https://space.bilibili.com/1174271590" target="_blank" rel="noopener noreferrer">
+                        uploading speedrunning tutorials and runs{' '}
+                      </a>{' '}
+                      to Bilibili, helping a lot of up-and-coming Chinese Hitman speedrunners
+                    </li>
+                    <li>
+                      Leveraged Mandarin Chinese skills learned in childhood to act as liaison between English speaking
+                      and Chinese speaking parts of Hitman speedrunning community, resolving any translation issues in
+                      communication
+                    </li>
+                    <li>
+                      Successfully created, marketed, popularized, and maintained a variety of open source software for
+                      the Hitman speedrun community - refer to previous tiles on this portfolio
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="item">
+            {' '}
+            <div className="max-w-lg rounded overflow-hidden mt-5 h-256">
+              <img
+                src="https://media.discordapp.net/attachments/1018323831468851202/1113955676163678308/image.png"
+                alt="new"
+              />
+              <div className="px-6 py-4 bg-white">
+                <div className="font-bold text-xl mb-2">
+                  <a
+                    href="https://github.com/OSU-Sustainability-Office/osu-sustainability-office.github.io"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    YouTube
+                  </a>
+                </div>
+                <div className="text-gray-700 text-base text-left">
+                  <ul className="list-disc list-inside">
+                    <li>
+                      This is tangential to Hitman Speedrunning, but I did get about 850 subscribers on Youtube (as of
+                      June 2023)
+                    </li>
+                    <li>
+                      I learned about simple video editing (I started to use LosslessCut, which is funny as I later
+                      contributed to LosslesCut as open source, see above), simple Photoshop for thumbnails, and a
+                      little about how to SEO / getting as many views as possible
+                    </li>
+                    <li>
+                      I later learned I don't really have the discipline to upload videos too regularly (running out of
+                      ideas, have to start focusing on school / work), but I still do upload some Hitman videos as a
+                      hobby now and then
+                    </li>
+                    <li>
+                      Since a lot of the Hitman speedrunning creators had big followings, if I ever did want to
+                      seriously consider Youtube as a career, I'm sure they would give me a leg up. I don't think I'm
+                      outgoing enough though
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="item">
+            {' '}
+            <div className="max-w-lg rounded overflow-hidden mt-5 h-256">
+              <img
+                src="https://media.discordapp.net/attachments/1018323831468851202/1113955948583719034/image.png"
+                alt="new"
+              />
+              <div className="px-6 py-4 bg-white">
+                <div className="font-bold text-xl mb-2">
+                  <a href="https://github.com/solderq35/hitruns-wiki" target="_blank" rel="noopener noreferrer">
+                    Bilibili
+                  </a>
+                </div>
+                <div className="text-gray-700 text-base text-left">
+                  <ul className="list-disc list-inside">
+                    <li>
+                      I think someone uploaded my video to Bilibili without my permission and I happened to see it. I
+                      started uploading my own videos to Bilibili after that. Also got about 700 subscribers on Bilibili
+                    </li>
+                    <li>
+                      As mentioned earlier, I translated my video's speedrunning tutorial instructions to Chinese
+                      myself.
+                    </li>
+                    <li>
+                      I thus have a proven track record of practical English to Chinese translation, as many Chinese
+                      Hitman speedrunners credited my content as an inspiration / guide early on for them.
+                    </li>
+                    <li>
+                      Continued to act as Chinese-English community liaison after that. I translated confusing Hitman
+                      speedrunning rules to Chinese on request, translated esoteric speedrunning techniques to Chinese
+                      when machine translation was not sufficient
+                    </li>
+                    <li>
+                      Continued to upload new speedrunning techniques to Bilibili for Chinese speedrunners who could not
+                      access Youtube due to firewall
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="item">
+            {' '}
+            <div className="max-w-lg rounded overflow-hidden mt-5 h-256">
+              <img
+                src="https://www.clipartmax.com/png/middle/24-241724_violin-clipart-free-clipartfest-transparent-background-violin-clipart.png"
+                alt="new"
+              />
+              <div className="px-6 py-4 bg-white">
+                <div className="font-bold text-xl mb-2">
+                  <a
+                    href="https://gitlab.com/osu-lug/projects/documentation/-/blob/master/docs/OSU/engr-servers.md"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Music
+                  </a>
+                </div>
+                <div className="text-gray-700 text-base text-left">
+                  <ul className="list-disc list-inside">
+                    <li>
+                      I have{' '}
+                      <a
+                        href="https://news.uchicago.edu/explainer/what-is-perfect-pitch"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        perfect pitch{' '}
+                      </a>{' '}
+                      (1/10,000 person trait). It doesn't make me a better musician per se, but I can sing any song /
+                      tune my violin without any reference pitch needed
+                    </li>
+                    <li>
+                      Haven't played in a few years but thinking of getting back into it this summer during my
+                      internship next week (June to August). Talked to{' '}
+                      <a href="https://cosusymphony.org/" target="_blank" rel="noopener noreferrer">
+                        OSU Symphony orchestra{' '}
+                      </a>{' '}
+                      conductor, they're really friendly
+                    </li>
+                    <li>
+                      I played for 5 years with the Metropolitan Youth Symphony, a Portland-based youth orchestra.{' '}
+                      <a href="https://youtu.be/odnEFBNQWA8" target="_blank" rel="noopener noreferrer">
+                        Here is one of my Metropolitan Youth Symphony Concerts{' '}
+                      </a>{' '}
+                      (I am in the front row second from the left)
+                    </li>
+                    <li>
+                      Played for more than 10 years as well as a solo performer.{' '}
+                      <a href="https://youtu.be/Ad1T7yfL3bg" target="_blank" rel="noopener noreferrer">
+                        Here's one of my solo performances{' '}
+                      </a>
                     </li>
                   </ul>
                 </div>
