@@ -21,10 +21,11 @@ jobs:
       - name: npm run build
         run: |
           npm run build
-      - name: deploy frontend to gh pages
-        uses: crazy-max/ghaction-github-pages@v3     # https://github.com/crazy-max/ghaction-github-pages
+      - name: Deploy frontend to gh-pages
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          target_branch: gh-pages
-          build_dir: portfolio/build
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build
+          publish_branch: gh-pages
+          cname: solderq35.github.io
+          allow_empty_commit: true
