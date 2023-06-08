@@ -17,10 +17,7 @@ export default function Project() {
           <div className="item">
             {' '}
             <div className="max-w-lg rounded overflow-hidden mt-5 h-256">
-              <img
-                src="https://media.discordapp.net/attachments/1090136863962058793/1103926413322625114/image.png"
-                alt="new"
-              />
+              <img src="./osu-so.png" alt="new" />
               <div className="px-6 py-4 bg-white">
                 <div className="font-bold text-xl mb-2">
                   <a href="https://github.com/OSU-Sustainability-Office" target="_blank" rel="noopener noreferrer">
@@ -116,10 +113,7 @@ export default function Project() {
           <div className="item">
             {' '}
             <div className="max-w-lg rounded overflow-hidden mt-5 h-256">
-              <img
-                src="https://media.discordapp.net/attachments/1018323831468851202/1101311012537376889/image.png"
-                alt="new"
-              />
+              <img src="./talk-to-beavs.png" alt="new" />
               <div className="px-6 py-4 bg-white">
                 <div className="font-bold text-xl mb-2">
                   <a href="https://github.com/Nyumat/TalkToBeavs" target="_blank" rel="noopener noreferrer">
@@ -152,10 +146,7 @@ export default function Project() {
           <div className="item">
             {' '}
             <div className="max-w-lg rounded overflow-hidden mt-5 h-256">
-              <img
-                src="https://user-images.githubusercontent.com/82061589/230786333-be52d168-0450-4e9f-8262-22cd8e478d4b.png"
-                alt="new"
-              />
+              <img src="./losslesscut.png" alt="new" />
               <div className="px-6 py-4 bg-white">
                 <div className="font-bold text-xl mb-2">
                   <a href="https://github.com/mifi/lossless-cut" target="_blank" rel="noopener noreferrer">
@@ -197,10 +188,7 @@ export default function Project() {
           <div className="item">
             {' '}
             <div className="max-w-lg rounded overflow-hidden mt-5 h-256">
-              <img
-                src="https://media.discordapp.net/attachments/1018323831468851202/1101312355905831102/image.png"
-                alt="new"
-              />
+              <img src="./fullgame.png" alt="new" />
               <div className="px-6 py-4 bg-white">
                 <div className="font-bold text-xl mb-2">
                   <a href="https://github.com/solderq35/fg-time-calc" target="_blank" rel="noopener noreferrer">
@@ -243,10 +231,7 @@ export default function Project() {
           <div className="item">
             {' '}
             <div className="max-w-lg rounded overflow-hidden mt-5 h-256">
-              <img
-                src="https://camo.githubusercontent.com/3ceeb65fd84169f479e699352c455851c10d28083c2b8435593bcb5479f9031d/68747470733a2f2f6d656469612e646973636f72646170702e6e65742f6174746163686d656e74732f3833333530353133363239303239393933352f3939333934393631373736303737323230362f756e6b6e6f776e2e706e673f77696474683d31313534266865696768743d363730"
-                alt="new"
-              />
+              <img src="./hitruns.png" alt="new" />
               <div className="px-6 py-4 bg-white">
                 <div className="font-bold text-xl mb-2">
                   <a href="https://github.com/solderq35/hitruns" target="_blank" rel="noopener noreferrer">
@@ -283,10 +268,7 @@ export default function Project() {
           <div className="item">
             {' '}
             <div className="max-w-lg rounded overflow-hidden mt-5 h-256">
-              <img
-                src="https://camo.githubusercontent.com/e8e8d7f263770c29bc5ba09c4a8cca50af4585b2d60590a7d91373a9fd489c12/68747470733a2f2f6d656469612e646973636f72646170702e6e65742f6174746163686d656e74732f313031383332333833313436383835313230322f313034313138363835353831363830363438312f696d6167652e706e67"
-                alt="new"
-              />
+              <img src="./timmy.png" alt="new" />
               <div className="px-6 py-4 bg-white">
                 <div className="font-bold text-xl mb-2">
                   <a href="https://github.com/solderq35/timmy-mk-3" target="_blank" rel="noopener noreferrer">
@@ -336,10 +318,7 @@ export default function Project() {
           <div className="item">
             {' '}
             <div className="max-w-lg rounded overflow-hidden mt-5 h-256">
-              <img
-                src="https://camo.githubusercontent.com/6e288253dd83c9c9ad0117800f14d3ed7fbe74f99353585f2a7c01df0ac5ac9c/68747470733a2f2f6d656469612e646973636f72646170702e6e65742f6174746163686d656e74732f3833333530353133363239303239393933352f3939333937313837333130323731323935322f756e6b6e6f776e2e706e673f77696474683d373135266865696768743d363730"
-                alt="new"
-              />
+              <img src="./hospital-website.png" alt="new" />
               <div className="px-6 py-4 bg-white">
                 <div className="font-bold text-xl mb-2">
                   <a href="https://github.com/solderq35/hospital-website" target="_blank" rel="noopener noreferrer">
@@ -359,10 +338,7 @@ export default function Project() {
           <div className="item">
             {' '}
             <div className="max-w-lg rounded overflow-hidden mt-5 h-256">
-              <img
-                src="https://cdn.discordapp.com/attachments/833505136290299935/1013155601100066908/unknown.png"
-                alt="new"
-              />
+              <img src="./wasteagram.png" alt="new" />
               <div className="px-6 py-4 bg-white">
                 <div className="font-bold text-xl mb-2">
                   <a href="https://github.com/solderq35/wasteagram" target="_blank" rel="noopener noreferrer">
@@ -394,10 +370,7 @@ export default function Project() {
           <div className="item">
             {' '}
             <div className="max-w-lg rounded overflow-hidden mt-5 h-256">
-              <img
-                src="https://media.discordapp.net/attachments/1090136863962058793/1103935736241201162/image.png"
-                alt="new"
-              />
+              <img src="./peacock.png" alt="new" />
               <div className="px-6 py-4 bg-white">
                 <div className="font-bold text-xl mb-2">
                   <a href="https://github.com/thepeacockproject/Peacock" target="_blank" rel="noopener noreferrer">
@@ -445,10 +418,7 @@ export default function Project() {
           <div className="item">
             {' '}
             <div className="max-w-lg rounded overflow-hidden mt-5 h-256">
-              <img
-                src="https://media.discordapp.net/attachments/1090136799696916602/1108920690985422918/image.png"
-                alt="new"
-              />
+              <img src="./osu-so-wiki.png" alt="new" />
               <div className="px-6 py-4 bg-white">
                 <div className="font-bold text-xl mb-2">
                   <a
@@ -483,10 +453,7 @@ export default function Project() {
           <div className="item">
             {' '}
             <div className="max-w-lg rounded overflow-hidden mt-5 h-256">
-              <img
-                src="https://media.discordapp.net/attachments/1090136863962058793/1103934392000327760/image.png"
-                alt="new"
-              />
+              <img src="./hitruns-wiki.png" alt="new" />
               <div className="px-6 py-4 bg-white">
                 <div className="font-bold text-xl mb-2">
                   <a href="https://github.com/solderq35/hitruns-wiki" target="_blank" rel="noopener noreferrer">
@@ -520,10 +487,7 @@ export default function Project() {
           <div className="item">
             {' '}
             <div className="max-w-lg rounded overflow-hidden mt-5 h-256">
-              <img
-                src="https://media.discordapp.net/attachments/1018323831468851202/1101316955002118204/image.png"
-                alt="new"
-              />
+              <img src="./osu-ssh.png" alt="new" />
               <div className="px-6 py-4 bg-white">
                 <div className="font-bold text-xl mb-2">
                   <a
@@ -568,10 +532,7 @@ export default function Project() {
           <div className="item">
             {' '}
             <div className="max-w-lg rounded overflow-hidden mt-5 h-256">
-              <img
-                src="https://media.discordapp.net/attachments/1018323831468851202/1113955318779613375/image.png"
-                alt="new"
-              />
+              <img src="./hitman-speedrunning.png" alt="new" />
               <div className="px-6 py-4 bg-white">
                 <div className="font-bold text-xl mb-2">
                   <a href="https://www.speedrun.com/hitman_3" target="_blank" rel="noopener noreferrer">
@@ -678,10 +639,7 @@ export default function Project() {
           <div className="item">
             {' '}
             <div className="max-w-lg rounded overflow-hidden mt-5 h-256">
-              <img
-                src="https://media.discordapp.net/attachments/1018323831468851202/1113955676163678308/image.png"
-                alt="new"
-              />
+              <img src="./youtube.png" alt="new" />
               <div className="px-6 py-4 bg-white">
                 <div className="font-bold text-xl mb-2">
                   <a href="https://www.youtube.com/@Solderq35" target="_blank" rel="noopener noreferrer">
@@ -717,10 +675,7 @@ export default function Project() {
           <div className="item">
             {' '}
             <div className="max-w-lg rounded overflow-hidden mt-5 h-256">
-              <img
-                src="https://media.discordapp.net/attachments/1018323831468851202/1113955948583719034/image.png"
-                alt="new"
-              />
+              <img src="./bilibili.png" alt="new" />
               <div className="px-6 py-4 bg-white">
                 <div className="font-bold text-xl mb-2">
                   <a href="https://space.bilibili.com/1174271590" target="_blank" rel="noopener noreferrer">
@@ -758,10 +713,7 @@ export default function Project() {
           <div className="item">
             {' '}
             <div className="max-w-lg rounded overflow-hidden mt-5 h-256">
-              <img
-                src="https://www.clipartmax.com/png/middle/24-241724_violin-clipart-free-clipartfest-transparent-background-violin-clipart.png"
-                alt="new"
-              />
+              <img src="./music.png" alt="new" />
               <div className="px-6 py-4 bg-white">
                 <div className="font-bold text-xl mb-2">
                   <a href="https://youtu.be/odnEFBNQWA8" target="_blank" rel="noopener noreferrer">
