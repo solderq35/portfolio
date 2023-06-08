@@ -395,7 +395,7 @@ export default function Project() {
             {' '}
             <div className="max-w-lg rounded overflow-hidden mt-5 h-256">
               <img
-                src="https://media.discordapp.net/attachments/1090136863962058793/1103935736241201162/image.png"
+                src="./peacock.png"
                 alt="new"
               />
               <div className="px-6 py-4 bg-white">
@@ -446,7 +446,7 @@ export default function Project() {
             {' '}
             <div className="max-w-lg rounded overflow-hidden mt-5 h-256">
               <img
-                src="https://media.discordapp.net/attachments/1090136799696916602/1108920690985422918/image.png"
+                src="./osu-so-wiki.png"
                 alt="new"
               />
               <div className="px-6 py-4 bg-white">
@@ -484,7 +484,7 @@ export default function Project() {
             {' '}
             <div className="max-w-lg rounded overflow-hidden mt-5 h-256">
               <img
-                src="https://media.discordapp.net/attachments/1090136863962058793/1103934392000327760/image.png"
+                src="./hitruns-wiki.png"
                 alt="new"
               />
               <div className="px-6 py-4 bg-white">
