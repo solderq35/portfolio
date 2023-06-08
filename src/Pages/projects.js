@@ -337,7 +337,7 @@ export default function Project() {
             {' '}
             <div className="max-w-lg rounded overflow-hidden mt-5 h-256">
               <img
-                src="https://camo.githubusercontent.com/6e288253dd83c9c9ad0117800f14d3ed7fbe74f99353585f2a7c01df0ac5ac9c/68747470733a2f2f6d656469612e646973636f72646170702e6e65742f6174746163686d656e74732f3833333530353133363239303239393933352f3939333937313837333130323731323935322f756e6b6e6f776e2e706e673f77696474683d373135266865696768743d363730"
+                src="./hospital-website.png"
                 alt="new"
               />
               <div className="px-6 py-4 bg-white">
@@ -360,7 +360,7 @@ export default function Project() {
             {' '}
             <div className="max-w-lg rounded overflow-hidden mt-5 h-256">
               <img
-                src="https://cdn.discordapp.com/attachments/833505136290299935/1013155601100066908/unknown.png"
+                src="./wasteagram.png"
                 alt="new"
               />
               <div className="px-6 py-4 bg-white">
