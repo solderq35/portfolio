@@ -198,7 +198,7 @@ export default function Project() {
             {' '}
             <div className="max-w-lg rounded overflow-hidden mt-5 h-256">
               <img
-                src="https://media.discordapp.net/attachments/1018323831468851202/1101312355905831102/image.png"
+                src="./fullgame.png"
                 alt="new"
               />
               <div className="px-6 py-4 bg-white">
@@ -244,7 +244,7 @@ export default function Project() {
             {' '}
             <div className="max-w-lg rounded overflow-hidden mt-5 h-256">
               <img
-                src="https://camo.githubusercontent.com/3ceeb65fd84169f479e699352c455851c10d28083c2b8435593bcb5479f9031d/68747470733a2f2f6d656469612e646973636f72646170702e6e65742f6174746163686d656e74732f3833333530353133363239303239393933352f3939333934393631373736303737323230362f756e6b6e6f776e2e706e673f77696474683d31313534266865696768743d363730"
+                src="./hitruns.png"
                 alt="new"
               />
               <div className="px-6 py-4 bg-white">
@@ -284,7 +284,7 @@ export default function Project() {
             {' '}
             <div className="max-w-lg rounded overflow-hidden mt-5 h-256">
               <img
-                src="https://camo.githubusercontent.com/e8e8d7f263770c29bc5ba09c4a8cca50af4585b2d60590a7d91373a9fd489c12/68747470733a2f2f6d656469612e646973636f72646170702e6e65742f6174746163686d656e74732f313031383332333833313436383835313230322f313034313138363835353831363830363438312f696d6167652e706e67"
+                src="./timmy.png"
                 alt="new"
               />
               <div className="px-6 py-4 bg-white">
