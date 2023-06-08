@@ -7,9 +7,9 @@ var resumeLink = globalVal.value;
 
 const navigation = [
   { name: 'Home', href: '/', target: '_self', rel: 'noreferrer', current: false },
-  { name: 'Projects', href: 'projects', target: '_self', rel: 'noreferrer', current: false },
+  { name: 'Projects', href: '#/projects', target: '_self', rel: 'noreferrer', current: false },
   { name: 'Resume', href: resumeLink, target: '_blank', rel: 'noreferrer', current: false },
-  { name: 'Contact Me', href: 'contact', target: '_self', rel: 'noreferrer', current: false },
+  { name: 'Contact Me', href: '#/contact', target: '_self', rel: 'noreferrer', current: false },
 ];
 
 function classNames(...classes) {
