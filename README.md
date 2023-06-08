@@ -1,5 +1,6 @@
-## Site URL (Try it Yourself!)
+## Site URL's (Try it Yourself!)
 
+**https://solderq35.github.io**
 **https://jeff-huang.vercel.app/**
 
 ## About
@@ -21,7 +22,7 @@ I've made modifications to the navbar and added a projects page.
 
 ## Site Setup
 
-It probably doesn't matter, but just in case, I am on node version `16.15.1` (run `node -v` in terminal to check). You can change node versions easily with [nvm for Unix](https://github.com/nvm-sh/nvm) or [nvm for Windows](https://github.com/coreybutler/nvm-windows)
+It probably doesn't matter, but just in case, I am on node version `16.20.0` (run `node -v` in terminal to check). You can change node versions easily with [nvm for Unix](https://github.com/nvm-sh/nvm) or [nvm for Windows](https://github.com/coreybutler/nvm-windows)
 
 `npm install`
 
@@ -37,4 +38,7 @@ It probably doesn't matter, but just in case, I am on node version `16.15.1` (ru
 
 ## Deployment
 
-Host on a frontend webhost of your choice, e.g. Github Pages, or in this case, Vercel. I'm using default Vercel settings.
+Host on a frontend webhost of your choice. In this case I'm using Github Pages and Vercel.
+
+- For Github Pages, see the `.github/workflows/gh-pages.yaml` file
+- For Vercel, I just used the default settings (output directory in `build`)
