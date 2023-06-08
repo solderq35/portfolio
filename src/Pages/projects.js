@@ -18,7 +18,7 @@ export default function Project() {
             {' '}
             <div className="max-w-lg rounded overflow-hidden mt-5 h-256">
               <img
-                src="https://media.discordapp.net/attachments/1090136863962058793/1103926413322625114/image.png"
+                src="./osu-so.png"
                 alt="new"
               />
               <div className="px-6 py-4 bg-white">
