@@ -3,7 +3,7 @@ name: React Client-side Routing Workflow
 on:
   push:
     branches:
-      - gh-workflow
+      - main
 
 jobs:
   build:
