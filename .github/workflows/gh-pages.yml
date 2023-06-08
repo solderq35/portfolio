@@ -15,12 +15,12 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 16
-      - name: yarn install
+      - name: npm install
         run: |
-          yarn install
-      - name: yarn build
+          npm install
+      - name: npm run build
         run: |
-          yarn build
+          npm run build
       - name: deploy frontend to gh pages
         uses: crazy-max/ghaction-github-pages@v3     # https://github.com/crazy-max/ghaction-github-pages
         with:
