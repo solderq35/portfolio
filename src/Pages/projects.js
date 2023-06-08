@@ -117,7 +117,7 @@ export default function Project() {
             {' '}
             <div className="max-w-lg rounded overflow-hidden mt-5 h-256">
               <img
-                src="https://media.discordapp.net/attachments/1018323831468851202/1101311012537376889/image.png"
+                src="./talk-to-beavs.png"
                 alt="new"
               />
               <div className="px-6 py-4 bg-white">
@@ -153,7 +153,7 @@ export default function Project() {
             {' '}
             <div className="max-w-lg rounded overflow-hidden mt-5 h-256">
               <img
-                src="https://user-images.githubusercontent.com/82061589/230786333-be52d168-0450-4e9f-8262-22cd8e478d4b.png"
+                src="./losslesscut.png"
                 alt="new"
               />
               <div className="px-6 py-4 bg-white">
