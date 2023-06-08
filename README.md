@@ -1,7 +1,7 @@
 ## Site URL's (Try it Yourself!)
 
-**https://solderq35.github.io**
-**https://jeff-huang.vercel.app/**
+- **https://solderq35.github.io**
+- **https://jeff-huang.vercel.app/**
 
 ## About
 
