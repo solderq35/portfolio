@@ -21,7 +21,7 @@ a {
 }
 
 body {
-  background-image: url('./background-final.jpg');
+  background-image: url('../public/background-final.png');
   background-attachment: fixed;
 }
 
