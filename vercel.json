@@ -1,11 +1,7 @@
 {
-  "version": 2,
   "git": {
-    "ignoredPaths": [
-      "vercel.json"
-    ],
-    "deploymentBranches": [
-      "gh-pages"
-    ]
+    "deploymentEnabled": {
+      "gh-pages": false
+    }
   }
 }
