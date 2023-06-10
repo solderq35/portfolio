@@ -13,7 +13,7 @@ export default function index() {
 
         <p className="text-2xl pb-5 py-10">
           Hi, I'm a computer science student at Oregon State University, graduating June 2024. I'm interested in
-          fullstack webdev, DevOps, and cybersecurity. Check out my work below!
+          fullstack webdev, DevOps, cybersecurity, and technical writing. Check out my work below!
         </p>
         <a href="#/projects" target="_self" rel="noreferrer" className="a2">
           <button className="bg-blue-600 hover:bg-blue-900 text-white font-bold py-2.5 px-4 rounded my-6 text-2xl mx-5">
