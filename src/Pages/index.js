@@ -12,8 +12,8 @@ export default function index() {
         </h1>
 
         <p className="text-2xl pb-5 py-10">
-          Hi, I'm a third year student at Oregon State University, pursuing a computer science degree with a focus on
-          web development.
+          Hi, I'm a computer science student at Oregon State University, graduating June 2024. I'm interested in
+          fullstack webdev, DevOps, and cybersecurity. Check out my work below!
         </p>
         <a href="#/projects" target="_self" rel="noreferrer" className="a2">
           <button className="bg-blue-600 hover:bg-blue-900 text-white font-bold py-2.5 px-4 rounded my-6 text-2xl mx-5">
