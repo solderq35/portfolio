@@ -42,6 +42,6 @@ Host on a frontend webhost of your choice. In this case I'm using Github Pages a
 
 - For Github Pages, see the `.github/workflows/gh-pages.yaml` file
 - For Vercel, I just used the default settings (output directory in `build`)
-  - For some reason, the `gh-pages` branch (the branch for actual deployment onto Github Pages) also triggers Vercel Preview deployments.
-    - Please ignore this, the "failed" preview deployment for `gh-pages` branch doesn't mean anything. Due to how I configured the github actions workflow file, by the time `gh-pages` branch has deployed, the app is production ready and preview deployments are redundant.
+  - For some reason, the `gh-pages` branch (the branch for actual deployment onto Github Pages) also triggers Vercel Preview deployments
+    - Please ignore this, the "failed" preview deployment for `gh-pages` branch doesn't mean anything. Due to how I configured the github actions workflow file, by the time `gh-pages` branch has deployed, the app is production ready and preview deployments are redundant
     - See: https://github.com/solderq35/solderq35.github.io/pull/13
