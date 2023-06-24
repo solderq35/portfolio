@@ -22,7 +22,7 @@ I've made modifications to the navbar and added a projects page.
 
 ## Site Setup
 
-It probably doesn't matter, but just in case, I am on node version `16.20.0` (run `node -v` in terminal to check). You can change node versions easily with [nvm for Unix](https://github.com/nvm-sh/nvm) or [nvm for Windows](https://github.com/coreybutler/nvm-windows)
+It probably doesn't matter, but just in case, I am on nodeJS version `16.20.0` (run `node -v` in terminal to check). You can change nodeJS versions easily with [nvm for Unix](https://github.com/nvm-sh/nvm) or [nvm for Windows](https://github.com/coreybutler/nvm-windows)
 
 `npm install`
 
