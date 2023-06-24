@@ -122,6 +122,13 @@ export default function Project() {
                 </div>
                 <div className="text-gray-700 text-base text-left">
                   <ul className="list-disc list-inside">
+                    <li>
+                      <b>
+                        <a href="https://talktobeavs.onrender.com/" target="_blank" rel="noopener noreferrer">
+                          Try it out yourself here!
+                        </a>
+                      </b>
+                    </li>
                     <li>Social Media app for OSU Students, built on MERN stack</li>
                     <li>
                       Deployed a full stack Giphy API integration feature, allowing users to pick a GIF either a
@@ -137,6 +144,55 @@ export default function Project() {
                       updates
                     </li>
                     <li>Nominated by professor for "Hall of Fame" in CS 494 Advanced Web Development course</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="item">
+            {' '}
+            <div className="max-w-lg rounded overflow-hidden mt-5 h-256">
+              <img src="./chinglish.png" alt="new" />
+              <div className="px-6 py-4 bg-white">
+                <div className="font-bold text-xl mb-2">
+                  <a href="https://github.com/solderq35/better-chinglish" target="_blank" rel="noopener noreferrer">
+                    Better Chinglish
+                  </a>
+                </div>
+                <div className="text-gray-700 text-base text-left">
+                  <ul className="list-disc list-inside">
+                    <li>
+                      <b>
+                        <a
+                          href="https://solderq35.github.io/better-chinglish/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          Try it out yourself here!
+                        </a>
+                      </b>
+                    </li>
+                    <li>
+                      Used Iframes to combine what were otherwise 3 separate services (image embed,{' '}
+                      <a href="https://www.qhanzi.com/" target="_blank" rel="noopener noreferrer">
+                        qhanzi handwriting input
+                      </a>
+                      ,{' '}
+                      <a
+                        href="https://www.bing.com/translator?to=en&setlang=si"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Bing translator
+                      </a>
+                      ) into one app
+                    </li>
+                    <li>
+                      Combining 3 services on my own website ensures I don't have to tab in and out on my phone
+                      constantly, greatly improving my workflow when ordering at local Chinese restaurants, as a Chinese
+                      American with shaky Chinese literacy
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -198,6 +254,13 @@ export default function Project() {
                 <div className="text-gray-700 text-base text-left">
                   <ul className="list-disc list-inside">
                     <li>
+                      <b>
+                        <a href="https://solderq35.github.io/fg-time-calc/" target="_blank" rel="noopener noreferrer">
+                          Try it out yourself here!
+                        </a>
+                      </b>
+                    </li>
+                    <li>
                       Developed a tool that stores race splits as part of the website URL, thus avoiding database costs
                       (credits to the{' '}
                       <a href="http://www.grun1.com/utils/timeCalc.html" target="_blank" rel="noopener noreferrer">
@@ -242,6 +305,13 @@ export default function Project() {
                 <div className="text-gray-700 text-base text-left">
                   <hr className="opacity-0" />
                   <ul className="list-disc list-inside">
+                    <li>
+                      <b>
+                        <a href="https://hitruns.vercel.app/" target="_blank" rel="noopener noreferrer">
+                          Try it out yourself here!
+                        </a>
+                      </b>
+                    </li>
                     <li>Developed a customized Hitman 3 leaderboard frontend, using data from the speedrun.com API</li>
                     <li>Designed mobile-friendly, responsive navbars, and dropdown menus using React Bootstrap</li>
                     <li>
@@ -327,6 +397,13 @@ export default function Project() {
                 </div>
                 <div className="text-gray-700 text-base text-left">
                   <ul className="list-disc list-inside">
+                    <li>
+                      <b>
+                        <a href="https://hospital-website.up.railway.app/" target="_blank" rel="noopener noreferrer">
+                          Try it out yourself here!
+                        </a>
+                      </b>
+                    </li>
                     <li>Built with NodeJS + SQL backend, Handlebars framework frontend</li>
                     <li>Users can create, update, read, and delete hospital database entries (CRUD functionality)</li>
                     <li>Simple input validation implemented (e.g. only allows numeric input for phone numbers)</li>
@@ -380,6 +457,13 @@ export default function Project() {
                 <div className="text-gray-700 text-base text-left">
                   <ul className="list-disc list-inside">
                     <li>
+                      <b>
+                        <a href="https://thepeacockproject.org/" target="_blank" rel="noopener noreferrer">
+                          Try it out yourself here!
+                        </a>
+                      </b>
+                    </li>
+                    <li>
                       As a key contributor to{' '}
                       <a href="https://github.com/thepeacockproject/Peacock" target="_blank" rel="noopener noreferrer">
                         The Peacock Project
@@ -432,6 +516,17 @@ export default function Project() {
                 <div className="text-gray-700 text-base text-left">
                   <ul className="list-disc list-inside">
                     <li>
+                      <b>
+                        <a
+                          href="https://osu-sustainability-office.github.io/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          Try it out yourself here!
+                        </a>
+                      </b>
+                    </li>
+                    <li>
                       I basically used my gaming wiki expertise to use it for my paid work (OSU Sustainability Office)
                     </li>
                     <li>
@@ -462,6 +557,13 @@ export default function Project() {
                 </div>
                 <div className="text-gray-700 text-base text-left">
                   <ul className="list-disc list-inside">
+                    <li>
+                      <b>
+                        <a href="https://hitruns-wiki.vercel.app/" target="_blank" rel="noopener noreferrer">
+                          Try it out yourself here!
+                        </a>
+                      </b>
+                    </li>
                     <li>
                       Compilation of Hitman 3 speedrunning guides, deployed as a Docusaurus static website with search
                       functionality
