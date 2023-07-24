@@ -18,14 +18,14 @@ export default function Project() {
             {' '}
             <div className="max-w-lg rounded overflow-hidden mt-5 h-256">
               <img src="./osu-so.png" alt="new" />
-              <div className="px-6 py-4 bg-white">
+              <div className="pr-6 py-4 bg-white pl-10">
                 <div className="font-bold text-xl mb-2">
                   <a href="https://github.com/OSU-Sustainability-Office" target="_blank" rel="noopener noreferrer">
                     OSU Sustainability Office (Paid Position)
                   </a>
                 </div>
                 <div className="text-gray-700 text-base text-left">
-                  <ul className="list-disc list-inside">
+                  <ul className="list-disc list-outside">
                     <li>
                       Implemented a{' '}
                       <a
@@ -114,7 +114,7 @@ export default function Project() {
             {' '}
             <div className="max-w-lg rounded overflow-hidden mt-5 h-256">
               <img src="./talk-to-beavs.png" alt="new" />
-              <div className="px-6 py-4 bg-white">
+              <div className="pr-6 py-4 bg-white pl-10">
                 <div className="font-bold text-xl mb-2">
                   <a href="https://github.com/Nyumat/TalkToBeavs" target="_blank" rel="noopener noreferrer">
                     TalkToBeavs
@@ -154,7 +154,7 @@ export default function Project() {
             {' '}
             <div className="max-w-lg rounded overflow-hidden mt-5 h-256">
               <img src="./chinglish.png" alt="new" />
-              <div className="px-6 py-4 bg-white">
+              <div className="pr-6 py-4 bg-white pl-10">
                 <div className="font-bold text-xl mb-2">
                   <a href="https://github.com/solderq35/better-chinglish" target="_blank" rel="noopener noreferrer">
                     Better Chinglish
@@ -203,7 +203,7 @@ export default function Project() {
             {' '}
             <div className="max-w-lg rounded overflow-hidden mt-5 h-256">
               <img src="./losslesscut.png" alt="new" />
-              <div className="px-6 py-4 bg-white">
+              <div className="pr-6 py-4 bg-white pl-10">
                 <div className="font-bold text-xl mb-2">
                   <a href="https://github.com/mifi/lossless-cut" target="_blank" rel="noopener noreferrer">
                     LosslessCut
@@ -245,7 +245,7 @@ export default function Project() {
             {' '}
             <div className="max-w-lg rounded overflow-hidden mt-5 h-256">
               <img src="./fullgame.png" alt="new" />
-              <div className="px-6 py-4 bg-white">
+              <div className="pr-6 py-4 bg-white pl-10">
                 <div className="font-bold text-xl mb-2">
                   <a href="https://github.com/solderq35/fg-time-calc" target="_blank" rel="noopener noreferrer">
                     Full Game Time Calculator
@@ -295,7 +295,7 @@ export default function Project() {
             {' '}
             <div className="max-w-lg rounded overflow-hidden mt-5 h-256">
               <img src="./hitruns.png" alt="new" />
-              <div className="px-6 py-4 bg-white">
+              <div className="pr-6 py-4 bg-white pl-10">
                 <div className="font-bold text-xl mb-2">
                   <a href="https://github.com/solderq35/hitruns" target="_blank" rel="noopener noreferrer">
                     Hitruns
@@ -339,7 +339,7 @@ export default function Project() {
             {' '}
             <div className="max-w-lg rounded overflow-hidden mt-5 h-256">
               <img src="./timmy.png" alt="new" />
-              <div className="px-6 py-4 bg-white">
+              <div className="pr-6 py-4 bg-white pl-10">
                 <div className="font-bold text-xl mb-2">
                   <a href="https://github.com/solderq35/timmy-mk-3" target="_blank" rel="noopener noreferrer">
                     Timmy Time Bot
@@ -389,7 +389,7 @@ export default function Project() {
             {' '}
             <div className="max-w-lg rounded overflow-hidden mt-5 h-256">
               <img src="./hospital-website.png" alt="new" />
-              <div className="px-6 py-4 bg-white">
+              <div className="pr-6 py-4 bg-white pl-10">
                 <div className="font-bold text-xl mb-2">
                   <a href="https://github.com/solderq35/hospital-website" target="_blank" rel="noopener noreferrer">
                     Hospital Website
@@ -416,7 +416,7 @@ export default function Project() {
             {' '}
             <div className="max-w-lg rounded overflow-hidden mt-5 h-256">
               <img src="./wasteagram.png" alt="new" />
-              <div className="px-6 py-4 bg-white">
+              <div className="pr-6 py-4 bg-white pl-10">
                 <div className="font-bold text-xl mb-2">
                   <a href="https://github.com/solderq35/wasteagram" target="_blank" rel="noopener noreferrer">
                     Wasteagram
@@ -448,7 +448,7 @@ export default function Project() {
             {' '}
             <div className="max-w-lg rounded overflow-hidden mt-5 h-256">
               <img src="./peacock.png" alt="new" />
-              <div className="px-6 py-4 bg-white">
+              <div className="pr-6 py-4 bg-white pl-10">
                 <div className="font-bold text-xl mb-2">
                   <a href="https://github.com/thepeacockproject/Peacock" target="_blank" rel="noopener noreferrer">
                     The Peacock Project
@@ -503,7 +503,7 @@ export default function Project() {
             {' '}
             <div className="max-w-lg rounded overflow-hidden mt-5 h-256">
               <img src="./osu-so-wiki.png" alt="new" />
-              <div className="px-6 py-4 bg-white">
+              <div className="pr-6 py-4 bg-white pl-10">
                 <div className="font-bold text-xl mb-2">
                   <a
                     href="https://github.com/OSU-Sustainability-Office/osu-sustainability-office.github.io"
@@ -549,7 +549,7 @@ export default function Project() {
             {' '}
             <div className="max-w-lg rounded overflow-hidden mt-5 h-256">
               <img src="./hitruns-wiki.png" alt="new" />
-              <div className="px-6 py-4 bg-white">
+              <div className="pr-6 py-4 bg-white pl-10">
                 <div className="font-bold text-xl mb-2">
                   <a href="https://github.com/solderq35/hitruns-wiki" target="_blank" rel="noopener noreferrer">
                     Hitruns Wiki
@@ -590,7 +590,7 @@ export default function Project() {
             {' '}
             <div className="max-w-lg rounded overflow-hidden mt-5 h-256">
               <img src="./osu-ssh.png" alt="new" />
-              <div className="px-6 py-4 bg-white">
+              <div className="pr-6 py-4 bg-white pl-10">
                 <div className="font-bold text-xl mb-2">
                   <a
                     href="https://gitlab.com/osu-lug/projects/documentation/-/blob/master/docs/OSU/engr-servers.md"
@@ -635,14 +635,14 @@ export default function Project() {
             {' '}
             <div className="max-w-lg rounded overflow-hidden mt-5 h-256">
               <img src="./hitman-speedrunning.png" alt="new" />
-              <div className="px-6 py-4 bg-white">
+              <div className="pr-6 py-4 bg-white pl-10">
                 <div className="font-bold text-xl mb-2">
                   <a href="https://www.speedrun.com/hitman_3" target="_blank" rel="noopener noreferrer">
                     Hitman Speedrunning
                   </a>
                 </div>
                 <div className="text-gray-700 text-base text-left">
-                  <ul className="list-disc list-inside">
+                  <ul className="list-disc list-outside">
                     <li>
                       {' '}
                       <a href="https://www.speedrun.com/user/Solderq35" target="_blank" rel="noopener noreferrer">
@@ -653,26 +653,38 @@ export default function Project() {
                     </li>
                     <li>
                       Discovered and / or popularized (non exhaustive):{' '}
-                      <a
-                        href="https://www.youtube.com/watch?v=ie1Zu2r27Ic&t=17s"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        This panic technique for the Romania level
-                      </a>{' '}
-                      |{' '}
-                      <a href="https://youtu.be/GMM85dJpTQ8?t=128" target="_blank" rel="noopener noreferrer">
-                        this technique for shooting just one bullet out of a window with an automatic weapon
-                      </a>{' '}
-                      |{' '}
-                      <a
-                        href="https://hitruns-wiki.vercel.app/docs/downpatching#epic-legendary"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        this technique for downpatching the game version on Epic
-                      </a>
-                      . These discoveries are still used by many runners to this day
+                      <ul className="list-disc list-inside">
+                        <li>
+                          <a
+                            href="https://www.youtube.com/watch?v=ie1Zu2r27Ic&t=17s"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            Panic technique for the Romania level
+                          </a>{' '}
+                        </li>
+                      </ul>{' '}
+                      <ul className="list-disc list-inside">
+                        <li>
+                          <a href="https://youtu.be/GMM85dJpTQ8?t=128" target="_blank" rel="noopener noreferrer">
+                            Technique for shooting just one bullet out of a window with an automatic weapon
+                          </a>{' '}
+                        </li>
+                      </ul>{' '}
+                      <ul className="list-disc list-inside">
+                        <li>
+                          <a
+                            href="https://hitruns-wiki.vercel.app/docs/downpatching#epic-legendary"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            Technique for downpatching the game version on Epic
+                          </a>
+                        </li>
+                      </ul>
+                      <ul className="list-disc list-inside">
+                        <li>These discoveries are still used by many runners to this day</li>
+                      </ul>
                     </li>
                     <li>
                       Popularized and was the first runner to make a serious attempt at beating the Hitman WoA trilogy
@@ -742,7 +754,7 @@ export default function Project() {
             {' '}
             <div className="max-w-lg rounded overflow-hidden mt-5 h-256">
               <img src="./youtube.png" alt="new" />
-              <div className="px-6 py-4 bg-white">
+              <div className="pr-6 py-4 bg-white pl-10">
                 <div className="font-bold text-xl mb-2">
                   <a href="https://www.youtube.com/@Solderq35" target="_blank" rel="noopener noreferrer">
                     YouTube
@@ -778,7 +790,7 @@ export default function Project() {
             {' '}
             <div className="max-w-lg rounded overflow-hidden mt-5 h-256">
               <img src="./bilibili.png" alt="new" />
-              <div className="px-6 py-4 bg-white">
+              <div className="pr-6 py-4 bg-white pl-10">
                 <div className="font-bold text-xl mb-2">
                   <a href="https://space.bilibili.com/1174271590" target="_blank" rel="noopener noreferrer">
                     Bilibili
@@ -816,7 +828,7 @@ export default function Project() {
             {' '}
             <div className="max-w-lg rounded overflow-hidden mt-5 h-256">
               <img src="./music.png" alt="new" />
-              <div className="px-6 py-4 bg-white">
+              <div className="pr-6 py-4 bg-white pl-10">
                 <div className="font-bold text-xl mb-2">
                   <a href="https://youtu.be/odnEFBNQWA8" target="_blank" rel="noopener noreferrer">
                     Music
