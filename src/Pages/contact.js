@@ -23,7 +23,18 @@ export default function index() {
 
         <a href="https://www.youtube.com/@Solderq35" target="_blank" rel="noreferrer" className="a2">
           <button className="bg-blue-600 hover:bg-blue-900 text-white font-bold py-2.5 px-4 rounded my-6 text-2xl mx-5">
-            Youtube
+            Youtube (Gaming)
+          </button>
+        </a>
+
+        <a
+          href="https://youtube.com/playlist?list=PLRTWT35D3VUUwTMmtSDW0hXCWO_fIgPj4"
+          target="_blank"
+          rel="noreferrer"
+          className="a2"
+        >
+          <button className="bg-blue-600 hover:bg-blue-900 text-white font-bold py-2.5 px-4 rounded my-6 text-2xl mx-5">
+            Youtube (Violin)
           </button>
         </a>
 

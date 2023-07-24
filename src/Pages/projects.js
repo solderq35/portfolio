@@ -121,7 +121,7 @@ export default function Project() {
                   </a>
                 </div>
                 <div className="text-gray-700 text-base text-left">
-                  <ul className="list-disc list-inside">
+                  <ul className="list-disc list-outside">
                     <li>
                       <b>
                         <a href="https://talktobeavs.onrender.com/" target="_blank" rel="noopener noreferrer">
@@ -161,7 +161,7 @@ export default function Project() {
                   </a>
                 </div>
                 <div className="text-gray-700 text-base text-left">
-                  <ul className="list-disc list-inside">
+                  <ul className="list-disc list-outside">
                     <li>
                       <b>
                         <a
@@ -210,7 +210,7 @@ export default function Project() {
                   </a>
                 </div>
                 <div className="text-gray-700 text-base text-left">
-                  <ul className="list-disc list-inside">
+                  <ul className="list-disc list-outside">
                     <li>
                       Implemented a{' '}
                       <a
@@ -252,7 +252,7 @@ export default function Project() {
                   </a>
                 </div>
                 <div className="text-gray-700 text-base text-left">
-                  <ul className="list-disc list-inside">
+                  <ul className="list-disc list-outside">
                     <li>
                       <b>
                         <a href="https://solderq35.github.io/fg-time-calc/" target="_blank" rel="noopener noreferrer">
@@ -304,7 +304,7 @@ export default function Project() {
 
                 <div className="text-gray-700 text-base text-left">
                   <hr className="opacity-0" />
-                  <ul className="list-disc list-inside">
+                  <ul className="list-disc list-outside">
                     <li>
                       <b>
                         <a href="https://hitruns.vercel.app/" target="_blank" rel="noopener noreferrer">
@@ -346,7 +346,7 @@ export default function Project() {
                   </a>
                 </div>
                 <div className="text-gray-700 text-base text-left">
-                  <ul className="list-disc list-inside">
+                  <ul className="list-disc list-outside">
                     <li>
                       Discord bot created to calculate millisecond times from Hitman level completions (not normally
                       shown in-game){' '}
@@ -396,7 +396,7 @@ export default function Project() {
                   </a>
                 </div>
                 <div className="text-gray-700 text-base text-left">
-                  <ul className="list-disc list-inside">
+                  <ul className="list-disc list-outside">
                     <li>
                       <b>
                         <a href="https://hospital-website.up.railway.app/" target="_blank" rel="noopener noreferrer">
@@ -423,7 +423,7 @@ export default function Project() {
                   </a>
                 </div>
                 <div className="text-gray-700 text-base text-left">
-                  <ul className="list-disc list-inside">
+                  <ul className="list-disc list-outside">
                     <li>
                       Cross-platform mobile app built with Dart (Flutter Framework), user data hosted in the cloud on
                       Google Firebase
@@ -455,7 +455,7 @@ export default function Project() {
                   </a>
                 </div>
                 <div className="text-gray-700 text-base text-left">
-                  <ul className="list-disc list-inside">
+                  <ul className="list-disc list-outside">
                     <li>
                       <b>
                         <a href="https://thepeacockproject.org/" target="_blank" rel="noopener noreferrer">
@@ -514,7 +514,7 @@ export default function Project() {
                   </a>
                 </div>
                 <div className="text-gray-700 text-base text-left">
-                  <ul className="list-disc list-inside">
+                  <ul className="list-disc list-outside">
                     <li>
                       <b>
                         <a
@@ -556,7 +556,7 @@ export default function Project() {
                   </a>
                 </div>
                 <div className="text-gray-700 text-base text-left">
-                  <ul className="list-disc list-inside">
+                  <ul className="list-disc list-outside">
                     <li>
                       <b>
                         <a href="https://hitruns-wiki.vercel.app/" target="_blank" rel="noopener noreferrer">
@@ -601,7 +601,7 @@ export default function Project() {
                   </a>
                 </div>
                 <div className="text-gray-700 text-base text-left">
-                  <ul className="list-disc list-inside">
+                  <ul className="list-disc list-outside">
                     <li>
                       Wrote a comprehensive tutorial in Markdown for various SSH tips and tricks, to ensure OSU students
                       can safely and securely log into the ENGR servers via SSH{' '}
@@ -761,7 +761,7 @@ export default function Project() {
                   </a>
                 </div>
                 <div className="text-gray-700 text-base text-left">
-                  <ul className="list-disc list-inside">
+                  <ul className="list-disc list-outside">
                     <li>
                       This is tangential to Hitman Speedrunning, but I did get about 850 subscribers on Youtube (as of
                       June 2023)
@@ -781,6 +781,16 @@ export default function Project() {
                       seriously consider Youtube as a career, I'm sure they would give me a leg up. I don't think I'm
                       outgoing enough though
                     </li>
+                    <li>
+                      See also:{' '}
+                      <a
+                        href="https://youtube.com/playlist?list=PLRTWT35D3VUUwTMmtSDW0hXCWO_fIgPj4"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Second Youtube Channel for my Violin performances{' '}
+                      </a>{' '}
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -797,7 +807,7 @@ export default function Project() {
                   </a>
                 </div>
                 <div className="text-gray-700 text-base text-left">
-                  <ul className="list-disc list-inside">
+                  <ul className="list-disc list-outside">
                     <li>
                       I think someone uploaded my video to Bilibili without my permission and I happened to see it. I
                       started uploading my own videos to Bilibili after that. Also got about 700 subscribers on Bilibili
@@ -835,7 +845,7 @@ export default function Project() {
                   </a>
                 </div>
                 <div className="text-gray-700 text-base text-left">
-                  <ul className="list-disc list-inside">
+                  <ul className="list-disc list-outside">
                     <li>
                       I have{' '}
                       <a
@@ -863,11 +873,17 @@ export default function Project() {
                       </a>{' '}
                       (I am in the front row second from the left)
                     </li>
+
+                    <li>Played for more than 10 years as well as a solo performer. </li>
                     <li>
-                      Played for more than 10 years as well as a solo performer.{' '}
-                      <a href="https://youtu.be/Ad1T7yfL3bg" target="_blank" rel="noopener noreferrer">
-                        Here's one of my solo performances{' '}
-                      </a>
+                      {' '}
+                      <a
+                        href="https://youtube.com/playlist?list=PLRTWT35D3VUUwTMmtSDW0hXCWO_fIgPj4"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Youtube Playlist / Channel for my Violin performances{' '}
+                      </a>{' '}
                     </li>
                   </ul>
                 </div>
