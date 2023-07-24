@@ -14,6 +14,7 @@ I've made modifications to the navbar and added a projects page.
 - Edit the file in `public/resume.pdf` to be your own resume
   - If you need a resume format, see: https://www.overleaf.com/read/jxnmjmzktxrh (make your own copy on Overleaf)
 - Edit `src/Pages/index.js` to cover your own personal details
+- Edit `src/Pages/contact.js` to cover your own social media profiles (Linkedin, Github, etc)
 - Edit `src/Pages/projects.js` to match your own personal projects
 - Edit `src/Navigation/Navbar.js` to have your social media links etc.
 - You may want to make further edits to the styling or add pages, use your imagination! In general, see:
