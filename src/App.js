@@ -4,7 +4,7 @@ import Index from './Pages/index';
 import Projects from './Pages/projects';
 import Contact from './Pages/contact';
 import NotFound from './Pages/notFound';
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
