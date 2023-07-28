@@ -263,7 +263,11 @@ export default function Project() {
                     <li>
                       Developed a tool that stores race splits as part of the website URL, thus avoiding database costs
                       (credits to the{' '}
-                      <a href="http://www.grun1.com/utils/timeCalc.html" target="_blank" rel="noopener noreferrer">
+                      <a
+                        href="https://www.grun1.grunsports.com/utils/timeCalc.html"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         original Time Calculator
                       </a>{' '}
                       from Gordon Smith for inspiration)
