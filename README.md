@@ -2,6 +2,7 @@
 
 - **https://solderq35.github.io**
 - **https://jeff-huang.vercel.app/**
+- **https://jeffhuang.tech/**
 
 ## About
 
