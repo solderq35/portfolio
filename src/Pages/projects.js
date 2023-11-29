@@ -19,7 +19,7 @@ export default function Project() {
             <div className="max-w-lg rounded overflow-hidden mt-5 h-256">
               <img src="./osu-so.png" alt="new" />
               <div className="pr-6 py-4 bg-white pl-10">
-                <div className="font-bold text-xl mb-2">
+                <div className="font-bold text-xl mb-2 pr-8">
                   <a href="https://github.com/OSU-Sustainability-Office" target="_blank" rel="noopener noreferrer">
                     OSU Sustainability Office (Paid Position)
                   </a>
@@ -53,7 +53,7 @@ export default function Project() {
                       >
                         Fixed issue with our frontend data store logic
                       </a>{' '}
-                      to better handle insuffient amounts of data, and display data better on our solar panel /
+                      to better handle insufficent amounts of data, and display data better on our solar panel /
                       "Kilowatt Crackdown Campaign" graphs, for{' '}
                       <a
                         href="https://dashboard.sustainability.oregonstate.edu/#/map"
@@ -115,7 +115,7 @@ export default function Project() {
             <div className="max-w-lg rounded overflow-hidden mt-5 h-256">
               <img src="./talk-to-beavs.png" alt="new" />
               <div className="pr-6 py-4 bg-white pl-10">
-                <div className="font-bold text-xl mb-2">
+                <div className="font-bold text-xl mb-2 pr-8">
                   <a href="https://github.com/Nyumat/TalkToBeavs" target="_blank" rel="noopener noreferrer">
                     TalkToBeavs
                   </a>
@@ -155,7 +155,7 @@ export default function Project() {
             <div className="max-w-lg rounded overflow-hidden mt-5 h-256">
               <img src="./chinglish.png" alt="new" />
               <div className="pr-6 py-4 bg-white pl-10">
-                <div className="font-bold text-xl mb-2">
+                <div className="font-bold text-xl mb-2 pr-8">
                   <a href="https://github.com/solderq35/better-chinglish" target="_blank" rel="noopener noreferrer">
                     Better Chinglish
                   </a>
@@ -204,7 +204,7 @@ export default function Project() {
             <div className="max-w-lg rounded overflow-hidden mt-5 h-256">
               <img src="./losslesscut.png" alt="new" />
               <div className="pr-6 py-4 bg-white pl-10">
-                <div className="font-bold text-xl mb-2">
+                <div className="font-bold text-xl mb-2 pr-8">
                   <a href="https://github.com/mifi/lossless-cut" target="_blank" rel="noopener noreferrer">
                     LosslessCut
                   </a>
@@ -246,7 +246,7 @@ export default function Project() {
             <div className="max-w-lg rounded overflow-hidden mt-5 h-256">
               <img src="./fullgame.png" alt="new" />
               <div className="pr-6 py-4 bg-white pl-10">
-                <div className="font-bold text-xl mb-2">
+                <div className="font-bold text-xl mb-2 pr-8">
                   <a href="https://github.com/solderq35/fg-time-calc" target="_blank" rel="noopener noreferrer">
                     Full Game Time Calculator
                   </a>
@@ -300,7 +300,7 @@ export default function Project() {
             <div className="max-w-lg rounded overflow-hidden mt-5 h-256">
               <img src="./hitruns.png" alt="new" />
               <div className="pr-6 py-4 bg-white pl-10">
-                <div className="font-bold text-xl mb-2">
+                <div className="font-bold text-xl mb-2 pr-8">
                   <a href="https://github.com/solderq35/hitruns" target="_blank" rel="noopener noreferrer">
                     Hitruns
                   </a>
@@ -344,7 +344,7 @@ export default function Project() {
             <div className="max-w-lg rounded overflow-hidden mt-5 h-256">
               <img src="./timmy.png" alt="new" />
               <div className="pr-6 py-4 bg-white pl-10">
-                <div className="font-bold text-xl mb-2">
+                <div className="font-bold text-xl mb-2 pr-8">
                   <a href="https://github.com/solderq35/timmy-mk-3" target="_blank" rel="noopener noreferrer">
                     Timmy Time Bot
                   </a>
@@ -394,7 +394,7 @@ export default function Project() {
             <div className="max-w-lg rounded overflow-hidden mt-5 h-256">
               <img src="./hospital-website.png" alt="new" />
               <div className="pr-6 py-4 bg-white pl-10">
-                <div className="font-bold text-xl mb-2">
+                <div className="font-bold text-xl mb-2 pr-8">
                   <a href="https://github.com/solderq35/hospital-website" target="_blank" rel="noopener noreferrer">
                     Hospital Website
                   </a>
@@ -421,7 +421,7 @@ export default function Project() {
             <div className="max-w-lg rounded overflow-hidden mt-5 h-256">
               <img src="./wasteagram.png" alt="new" />
               <div className="pr-6 py-4 bg-white pl-10">
-                <div className="font-bold text-xl mb-2">
+                <div className="font-bold text-xl mb-2 pr-8">
                   <a href="https://github.com/solderq35/wasteagram" target="_blank" rel="noopener noreferrer">
                     Wasteagram
                   </a>
@@ -453,7 +453,7 @@ export default function Project() {
             <div className="max-w-lg rounded overflow-hidden mt-5 h-256">
               <img src="./peacock.png" alt="new" />
               <div className="pr-6 py-4 bg-white pl-10">
-                <div className="font-bold text-xl mb-2">
+                <div className="font-bold text-xl mb-2 pr-8">
                   <a href="https://github.com/thepeacockproject/Peacock" target="_blank" rel="noopener noreferrer">
                     The Peacock Project
                   </a>
@@ -508,7 +508,7 @@ export default function Project() {
             <div className="max-w-lg rounded overflow-hidden mt-5 h-256">
               <img src="./osu-so-wiki.png" alt="new" />
               <div className="pr-6 py-4 bg-white pl-10">
-                <div className="font-bold text-xl mb-2">
+                <div className="font-bold text-xl mb-2 pr-8">
                   <a
                     href="https://github.com/OSU-Sustainability-Office/osu-sustainability-office.github.io"
                     target="_blank"
@@ -554,7 +554,7 @@ export default function Project() {
             <div className="max-w-lg rounded overflow-hidden mt-5 h-256">
               <img src="./hitruns-wiki.png" alt="new" />
               <div className="pr-6 py-4 bg-white pl-10">
-                <div className="font-bold text-xl mb-2">
+                <div className="font-bold text-xl mb-2 pr-8">
                   <a href="https://github.com/solderq35/hitruns-wiki" target="_blank" rel="noopener noreferrer">
                     Hitruns Wiki
                   </a>
@@ -595,7 +595,7 @@ export default function Project() {
             <div className="max-w-lg rounded overflow-hidden mt-5 h-256">
               <img src="./osu-ssh.png" alt="new" />
               <div className="pr-6 py-4 bg-white pl-10">
-                <div className="font-bold text-xl mb-2">
+                <div className="font-bold text-xl mb-2 pr-8">
                   <a
                     href="https://gitlab.com/osu-lug/projects/documentation/-/blob/master/docs/OSU/engr-servers.md"
                     target="_blank"
@@ -640,7 +640,7 @@ export default function Project() {
             <div className="max-w-lg rounded overflow-hidden mt-5 h-256">
               <img src="./hitman-speedrunning.png" alt="new" />
               <div className="pr-6 py-4 bg-white pl-10">
-                <div className="font-bold text-xl mb-2">
+                <div className="font-bold text-xl mb-2 pr-8">
                   <a href="https://www.speedrun.com/hitman_3" target="_blank" rel="noopener noreferrer">
                     Hitman Speedrunning
                   </a>
@@ -759,7 +759,7 @@ export default function Project() {
             <div className="max-w-lg rounded overflow-hidden mt-5 h-256">
               <img src="./youtube.png" alt="new" />
               <div className="pr-6 py-4 bg-white pl-10">
-                <div className="font-bold text-xl mb-2">
+                <div className="font-bold text-xl mb-2 pr-8">
                   <a href="https://www.youtube.com/@Solderq35" target="_blank" rel="noopener noreferrer">
                     YouTube
                   </a>
@@ -805,7 +805,7 @@ export default function Project() {
             <div className="max-w-lg rounded overflow-hidden mt-5 h-256">
               <img src="./bilibili.png" alt="new" />
               <div className="pr-6 py-4 bg-white pl-10">
-                <div className="font-bold text-xl mb-2">
+                <div className="font-bold text-xl mb-2 pr-8">
                   <a href="https://space.bilibili.com/1174271590" target="_blank" rel="noopener noreferrer">
                     Bilibili
                   </a>
@@ -843,39 +843,31 @@ export default function Project() {
             <div className="max-w-lg rounded overflow-hidden mt-5 h-256">
               <img src="./music.png" alt="new" />
               <div className="pr-6 py-4 bg-white pl-10">
-                <div className="font-bold text-xl mb-2">
-                  <a href="https://youtu.be/odnEFBNQWA8" target="_blank" rel="noopener noreferrer">
-                    Music
+                <div className="font-bold text-xl mb-2 pr-8">
+                  <a
+                    href="https://youtube.com/playlist?list=PLRTWT35D3VUUwTMmtSDW0hXCWO_fIgPj4"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Violin
                   </a>
                 </div>
                 <div className="text-gray-700 text-base text-left">
                   <ul className="list-disc list-outside">
                     <li>
-                      I have{' '}
-                      <a
-                        href="https://news.uchicago.edu/explainer/what-is-perfect-pitch"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        perfect pitch{' '}
-                      </a>{' '}
-                      (1/10,000 person trait). It doesn't make me a better musician per se, but I can sing any song /
-                      tune my violin without any reference pitch needed
-                    </li>
-                    <li>
-                      Haven't played in a few years but thinking of getting back into it this summer during my
-                      internship next week (June to August). Talked to{' '}
-                      <a href="https://cosusymphony.org/" target="_blank" rel="noopener noreferrer">
-                        OSU Symphony orchestra{' '}
-                      </a>{' '}
-                      conductor, they're really friendly
-                    </li>
-                    <li>
-                      I played for 5 years with the Metropolitan Youth Symphony, a Portland-based youth orchestra.{' '}
+                      As a middle / high schooler, I played as a violinist with the Metropolitan Youth Symphony. <br />
                       <a href="https://youtu.be/odnEFBNQWA8" target="_blank" rel="noopener noreferrer">
                         Here is one of my Metropolitan Youth Symphony Concerts{' '}
                       </a>{' '}
                       (I am in the front row second from the left)
+                    </li>
+
+                    <li>
+                      I went on to play violin at the collegiate level with the{' '}
+                      <a href="https://cosusymphony.org/" target="_blank" rel="noopener noreferrer">
+                        OSU Symphony orchestra{' '}
+                      </a>{' '}
+                      .
                     </li>
 
                     <li>Played for more than 10 years as well as a solo performer. </li>
