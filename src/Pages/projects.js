@@ -273,11 +273,6 @@ export default function Project() {
                       from Gordon Smith for inspiration)
                     </li>
                     <li>
-                      Deployed a full stack Giphy API integration feature, allowing users to pick a GIF either a
-                      "trending" GIF, or search for a specific GIF by topic. Proxied the Giphy API through our own API
-                      to hide the Giphy API key
-                    </li>
-                    <li>
                       Added integration with TinyURL API to shorten the links for better UI, improving stability and
                       convenience
                     </li>
