@@ -17,7 +17,8 @@ I've made modifications to the navbar and added a projects page.
 - Edit `src/Pages/index.js` to match your portfolio and projects. This is the main / default landing page of your site, so focus effort here
 - Edit `src/Pages/contact.js` to cover your own social media profiles (Linkedin, Github, etc)
   - React SVG Icons: https://reactsvgicons.com/
-- Edit `src/Navigation/Navbar.js` to have your social media links etc.
+- Edit `src/Navigation/Navbar.js` to match your own file structure
+- Change any included image files / favicon to match your own projects, branding etc.
 - You may want to make further edits to the styling or add pages, use your imagination! In general, see:
   - https://tailwindcss.com/
   - https://react.dev/learn
