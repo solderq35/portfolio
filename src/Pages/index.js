@@ -295,7 +295,7 @@ export default function Project() {
           <div className="item">
             {' '}
             <div className="max-w-lg rounded overflow-hidden mt-5 h-256">
-              <img src="./hitruns-records-bot.jpg" alt="new" />
+              <img src="./hitruns-records-bot.png" alt="new" />
               <div className="pr-6 py-4 bg-white pl-10">
                 <div className="font-bold text-xl mb-2 pr-8">
                   <a href="https://github.com/solderq35/hitruns-records-bot" target="_blank" rel="noopener noreferrer">
