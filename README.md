@@ -2,7 +2,7 @@
 
 - **https://solderq35.github.io**
 - **https://jeff-huang.vercel.app/**
-- **https://jeffhuang.tech/**
+- **https://jeffhuang.dev/**
 
 ## About
 
@@ -45,6 +45,22 @@ Host on a frontend webhost of your choice. In this case I'm using Github Pages a
 
 - For Github Pages, see the `.github/workflows/gh-pages.yaml` file
 - For Vercel, I just used the default settings (output directory in `build`)
-  - For some reason, the `gh-pages` branch (the branch for actual deployment onto Github Pages) also triggers Vercel Preview deployments
-    - Please ignore this, the "failed" preview deployment for `gh-pages` branch doesn't mean anything. Due to how I configured the github actions workflow file, by the time `gh-pages` branch has deployed, the app is production ready and preview deployments are redundant
-    - See: https://github.com/solderq35/solderq35.github.io/pull/13 and https://github.com/solderq35/solderq35.github.io/pull/15
+  - To prevent deployments to GitHub Pages (`gh-pages` branch) from triggering Vercel preview deployments (if applicable), set these settings in Vercel Project Settings > Git:
+    - Go to "Ignored Build Step", then enter `bash -c 'if [[ $VERCEL_GIT_COMMIT_REF != "gh-pages" ]]; then exit 1; fi'`
+    - More info:
+      - https://github.com/vercel/vercel/issues/3166#issuecomment-1508928585
+      - https://vercel.com/guides/how-do-i-use-the-ignored-build-step-field-on-vercel
+
+## Domain Hosting
+
+- Optional step to get a shorter domain that rolls off the tongue better
+- There are definitely other options, this is just what I went with for [jeffhuang.dev](https://jeffhuang.dev/):
+  - CloudFare for registering (buying) the domain, managing DNS, handling SSL
+  - Vercel for handling the build and deploy steps of the CI / CD pipeline
+  - Documentation:
+    - Registering domain on Cloudfare: https://developers.cloudflare.com/registrar/get-started/register-domain/
+    - Connecting Cloudfare domain to Vercel: https://vercel.com/docs/integrations/cloudflare
+      - I picked option 1, use Cloudfare DNS
+      - Also useful: https://foxglove.dev/blog/how-to-configure-vercel-with-cloudflare
+    - General custom domain advice for Vercel: https://vercel.com/docs/projects/domains/add-a-domain
+- Alternatively, here is some documentation for [setting up custom domains with GitHub Pages](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/about-custom-domains-and-github-pages)

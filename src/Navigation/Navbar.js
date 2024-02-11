@@ -43,7 +43,7 @@ export default function Navbar() {
                     <div className="hidden sm:block sm:ml-6">
                       <div className="flex space-x-4">
                         {navigation.map((item) => (
-                          <NavLink
+                          <NavLink // Use NavLink to prevent navbar links from re-rendering when clicked
                             to={'../' + item.href}
                             key={item.name}
                             className={classNames(
@@ -83,8 +83,11 @@ export default function Navbar() {
               <Disclosure.Panel className="sm:hidden">
                 <div className="px-2 pt-2 pb-3 space-y-1">
                   {navigation.map((item) => (
-                    <Disclosure.Button key={item.name} className={'w-full text-left'}>
-                      <NavLink
+                    <Disclosure.Button // put a button around it so hamburger menu closes after link is clicked
+                      key={item.name}
+                      className={'w-full text-left'}
+                    >
+                      <NavLink // Use NavLink to prevent navbar links from re-rendering when clicked
                         to={'../' + item.href}
                         className={classNames(
                           item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
@@ -96,20 +99,22 @@ export default function Navbar() {
                       </NavLink>
                     </Disclosure.Button>
                   ))}
-                  <a
-                    href={resumeItem.href}
-                    target={resumeItem.target}
-                    rel={resumeItem.rel}
-                    className={classNames(
-                      resumeItem.current
-                        ? 'bg-gray-900 text-white'
-                        : 'text-gray-300 hover:bg-gray-700 hover:text-white',
-                      'block px-3 py-2 rounded-md text-base font-medium'
-                    )}
-                    aria-current={resumeItem.current ? 'page' : undefined}
-                  >
-                    {resumeItem.name}
-                  </a>
+                  <Disclosure.Button key={resumeItem.name} className={'w-full text-left'}>
+                    <a // Use <a> here to access file from public directory, open in new tab. Since opened in new tab, any navbar re-renders shouldn't be obvious
+                      href={resumeItem.href}
+                      target={resumeItem.target}
+                      rel={resumeItem.rel}
+                      className={classNames(
+                        resumeItem.current
+                          ? 'bg-gray-900 text-white'
+                          : 'text-gray-300 hover:bg-gray-700 hover:text-white',
+                        'block px-3 py-2 rounded-md text-base font-medium'
+                      )}
+                      aria-current={resumeItem.current ? 'page' : undefined}
+                    >
+                      {resumeItem.name}
+                    </a>
+                  </Disclosure.Button>
                 </div>
               </Disclosure.Panel>
             </>
