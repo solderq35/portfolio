@@ -299,7 +299,7 @@ export default function Project() {
               <div className="pr-6 py-4 bg-white pl-10">
                 <div className="font-bold text-xl mb-2 pr-8">
                   <a href="https://github.com/solderq35/hitruns-records-bot" target="_blank" rel="noopener noreferrer">
-                    HitRuns Records Bot
+                    Hitruns Records Bot
                   </a>
                 </div>
                 <div className="text-gray-700 text-base text-left">
@@ -313,17 +313,13 @@ export default function Project() {
                     </li>
                     <li>
                       To ensure good performance on queries that affect every level of the game (e.g. getting all
-                      records and sorting by new), I set up a daily cron job on{' '}
+                      records and sorting by new, or calculating sums-of-best times), I set up a daily cron job on{' '}
                       <a href="https://railway.app/" target="_blank" rel="noopener noreferrer">
                         Railway
                       </a>{' '}
-                      to do some data caching
-                    </li>
-                    <li>
-                      {' '}
-                      To be specific, the cron job collects data from every level / category endpoint from the
-                      speedrun.com API, and then backs the data back up to the bot's own database in a simplified
-                      schema, ensuring good performance on other bot commands later
+                      to collect data for every Hitman 3 level / category endpoint on the speedrun.com API, convert the
+                      data into a schema optimized for retrieving data about every level at once, and then upload the
+                      converted data to a cloud database for future retrieval / backup
                     </li>
                   </ul>
                 </div>
